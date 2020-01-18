@@ -26,10 +26,12 @@ main {
     font-size: 1em;
     line-height: 1.3em;
     padding: .8em 2%;
-}
-section.design {
-    border: none;
     text-align: center;
+
+}
+section.design1 {
+    border: none;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3%;
@@ -42,6 +44,15 @@ img {
     box-shadow: 5px 10px 18px rgb(94, 92, 92);
     margin-top: 0em;
     padding: 0em;
+}
+
+design2 {
+    border: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+    margin-top: 30px;
 }
 
 footer {
