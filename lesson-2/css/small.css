@@ -1,66 +1,54 @@
 * {
-    margin: 5px;
     box-sizing: border-box;
     padding: 1em;
     margin: 0.5rem;
 }
 body {
-    font-size: 1em;
-    line-height: 2;
+        font-size: 16px;
+        margin: 2px;
 }
-h1 {
-    background-color: rgb(219, 219, 212);
-    padding-bottom: 2em;
-    margin-top: 0em;
-    margin-bottom: 0em;
+
+h1, h2, h3 {
+    font-family: 'Spectral', serif;
 }
+
 header {
-    
-    color: blue;
+    margin: 0 auto;
     text-align: center;
 }
+
 main {
-    background-color: rgba(178, 184, 185, 0.26);
-    margin: 20px;
-    font-family: 'Oxygen' , sans-serif;
-    font-size: 1em;
-    line-height: 1.3em;
-    padding: .8em 2%;
-    text-align: center;
-
-}
-section.design1 {
-    border: none;
-    
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3%;
-    margin-top: 30px;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
 }
-div.zola {
-   text-align: center;
+
+main section {
+    margin: 0.5rem;
+    padding: 0 1rem;
+    background-color: #eee;
 }
+
+p, li {
+    font-size: 1.3em;
+    color: rgb(17, 19, 18);
+}
+
 img {
-    box-shadow: 5px 10px 18px rgb(94, 92, 92);
-    margin-top: 0em;
-    padding: 0em;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #000;
 }
 
-design2 {
-    border: none;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3%;
-    margin-top: 30px;
+header, main, footer {
+	border: 1px solid #333;
+    
 }
 
 footer {
     background-color: rgb(27, 27, 25);
     color:#ffff;
-    margin-top: 0;
+    margin-top: 0.5px;
     padding-top: 0em;
-    
-
-
 }

@@ -1,6 +1,11 @@
 @media only screen and (min-width: 32.5em) {
     p img {
         float: right;
+        border-radius: 5px;  
+        margin-right: 10px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 200px;
+        width: auto; 
         
     
     }
@@ -11,7 +16,9 @@
 
 h1 {
     font-size: 2.5rem;
+    margin-top: 10px;
 }
+
 header, footer {
     border-radius: 5px;
 }
