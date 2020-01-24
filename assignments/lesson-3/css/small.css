@@ -56,7 +56,7 @@ nav ul {
     main {
       display: grid;
       grid-template-columns: 1fr;
-      font-size: 1.5rem;
+      font-size: 0.5rem;
       text-align: left;
     }
 
