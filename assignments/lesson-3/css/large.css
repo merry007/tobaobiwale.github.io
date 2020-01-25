@@ -1,8 +1,15 @@
-@media only screen and (min-width: 1016px){}
+@media only screen and (min-width: 1000px){}
 
 header.img {
-    max-width: 61px;
+    max-width: 70px;
 }
+header {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
 
  /*NAVIGATION*/
 
@@ -17,9 +24,8 @@ header.img {
  }
 
  nav ul li {
-     font-size: 1.3em;
-     border: none;
-     border-right: 1px solid black;
+     font-size: 1.2em;
+     border: auto;
      padding: .6rem 1rem;
 }
 
@@ -27,7 +33,7 @@ header.img {
      margin: 0 ; 
      border: 1px ; 
      padding: 5px; 
-     line-height: 1.3em;       
+     line-height: 1.5em;       
        }
      
    ul {

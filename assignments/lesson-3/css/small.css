@@ -3,19 +3,25 @@ body {
   margin: 70px;
   padding: 0px;
   font-family: 'Inconsolata' , sans-serif;
-  font-size: 15px;
-  background-color: #fff;
+  background-color: rgb(252, 252, 252);
   text-align: center;
 }
 
-h1 { margin: 0;}
+h1 { margin: 0;
+}
 
+p {
+  font-size: 22px;
+}
 
-
+/* HEADER*/
 header img {
     max-width: 100px ;
     vertical-align: sub;
 }
+ h1 {
+   font-size: 30px;
+ }
 
 div.title {
     display: inline-block ;
@@ -28,7 +34,7 @@ div.title h2 {
 }
 
 nav ul {
-    background-color: rgb(236, 205, 68) ;
+    background-color: rgb(72, 50, 199) ;
     list-style-type: none;
     padding: 0;
     font-size: 25px;
@@ -44,36 +50,16 @@ nav ul {
    
      nav li a {
          text-decoration: none;  
-         color: black;
+         color: #ffffff;
           
        }
    
      nav li:hover {
-       background-color:rgb(175, 170, 170);
+       background-color:rgb(8, 7, 5);
 
     }
 
-    main {
-      display: grid;
-      grid-template-columns: 1fr;
-      font-size: 0.5rem;
-      text-align: left;
-    }
-
-
- /*Main */ 
- /* h1 {
-   text-align: center;
-   font-size: 30px;
-   color: rgb(17, 11, 11);
- }
-
- p {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Inconsolata' , sans-serif;
-  margin-top: 2px;
-}
+   
  
 /* TARGET AUDIENCE*/
 h1 {
@@ -81,10 +67,10 @@ h1 {
 }
 
 p {
-  text-align: left;
   margin: 5px;
   padding: 5px;
   background-color: cornsilk;
+  
 }
 
 /*CONTACT*/
@@ -94,17 +80,7 @@ p {
   
 }
  
-     
-
-
-
-
-
-
-
-
-
-/* Footer */
+    /* Footer */
 
 footer {
   flex: 0 1 100%;
