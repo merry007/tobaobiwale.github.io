@@ -59,11 +59,12 @@ nav ul {
     }
    
 nav ul.hide {
-    display: none;
+    display: block;
 }
      
 nav li {
     padding: 15px;
+    display: none;
 }
      
 nav li a {

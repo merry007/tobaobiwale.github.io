@@ -1,4 +1,4 @@
-  @media only screen and (min-width: 56em){
+  @media only screen and (min-width: 900px){
 }
    /*NAVIGATION*/
 
@@ -33,10 +33,7 @@ ul {
      background-color: black;
      text-align: center;
     
-}
-
-li {
-  display: inline-block;
+}li {
   text-align: center;
 }
 
