@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    line-height: 1.1em;
+}
+
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: rgb(23, 157, 235);
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 8rem;
+	height: auto;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 1.rem;
+	margin: 0 0 0 17px;
+}
+
+.top {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(12, 12, 12);
+	margin-left: 20px;
+	font-size: 1.5rem;
+}
+
+button {
+    border-radius: 4px;
+    background-color: rgb(64, 64, 204);
+    color: white;
+}
+
+
+nav ul {
+    background-color: rgb(72, 50, 199) ;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
+    
+    }
+   
+nav ul.hide {
+    display: none;
+}
+     
+nav li {
+    padding: 15px;
+}
+     
+nav li a {
+    text-decoration: none;  
+    color: #ffffff;
+          
+}
+   
+nav li:hover {
+    background-color:rgb(8, 7, 5);
+
+}
+
+/* MAIN */
+ h2 {
+    text-align: center;
+    font-size: 2.5rem;
+ }
+
+ .container {
+     display: block;
+     margin: 10px auto;
+     padding: 15px;
+     border: 1px dashed #000;
+     color: rgb(8, 1, 1);
+     font-size: 25px;
+ }
+
+   /* Footer */
+   footer {
+    background-color: #1a0ce9;
+    Color: White;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0.5rem;
+    font-size: 20px;
+
+}
