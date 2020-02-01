@@ -1,0 +1,50 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    nav button {
+      display: none;
+  }
+      
+  nav ul.hide {display: block;}
+  
+  nav ul {
+      margin-left: 2%;
+  }
+  
+  nav ul li {
+      float: left;
+  }
+  
+  nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0,0,0,0.3);
+      padding: .6rem 1rem;
+  }
+
+   /*5 DAY FORCAST*/
+
+.forecast {
+    display: inline-block;
+    font-family: 'Lato' , sans-serif;
+    padding-top: 1.rem;
+    text-align:center;
+}
+
+.forecast table {
+    margin: auto 18rem auto;
+}
+
+.forecast td,
+.forecast th {
+    border: 3px solid whitesmoke;
+    color: black;
+    padding: 1.3%;
+    font-size: 1.2rem;
+    background-color: lightblue;
+}
+
+.forecast tbody {
+    font-size: 1.5em;
+
+}
+  }
