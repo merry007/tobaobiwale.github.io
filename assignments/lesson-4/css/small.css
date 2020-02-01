@@ -7,12 +7,12 @@
 
 body {
 	background-color: #fff;
-	padding: 0;
-	margin: 0;
+	padding: 1rem;
+	margin: 1rem;
 }
 
 header {
-	background-color: rgb(23, 157, 235);
+	background-color: rgb(11, 191, 223);
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
@@ -44,42 +44,52 @@ header img {
 
 button {
     border-radius: 4px;
-    background-color: rgb(64, 64, 204);
-    color: white;
+    color:red;
 }
 
+/* NAVIGATION */
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+nav {
+    background-color:white;
+    font-family: Verdana, sans-serif;
+}
 
 nav ul {
-    background-color: rgb(72, 50, 199) ;
-    list-style-type: none;
-    padding: 10px;
-    margin: 0px;
-    font-size: 20px;
-    
-    }
-   
-nav ul.hide {
-    display: block;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
 }
-     
+
 nav li {
     padding: 15px;
-    display: none;
+    font-size: 1.2rem;
+    background-color: black;
 }
-     
-nav li a {
-    text-decoration: none;  
-    color: #ffffff;
-          
-}
-   
-nav li:hover {
-    background-color:rgb(8, 7, 5);
 
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:#ffff
+    ;
+    border-top: 1px solid rgba(139, 136, 150, 0.3);
 }
+
+nav ul li a:hover {
+    background-color:rgb(212, 13, 13);
+}
+ nav ul.hide {display: none;}
 
 /* MAIN */
- h2 {
+
+h2 {
     text-align: center;
     font-size: 2.5rem;
  }
@@ -104,5 +114,11 @@ nav li:hover {
     padding: 10px;
     margin: 0.5rem;
     font-size: 20px;
-
 }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

@@ -1,45 +1,23 @@
-  @media only screen and (min-width: 900px){
-}
-   /*NAVIGATION*/
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
 
-nav ul.hide {
-    display:inline-flex;
-    width: 100%; justify-content: center;
-}
-
-nav button {
+  nav button {
     display: none;
 }
+    
+nav ul.hide {display: block;}
+
+nav ul {
+    margin-left: 2%;
+}
 
 nav ul li {
-    font-size: 1.3em;
+    float: left;
+}
+
+nav ul li a {
     border: none;
-    border-right: 1px solid black;
+    border-right: 1px solid rgba(0,0,0,0.3);
     padding: .6rem 1rem;
 }
-
-nav ul li {
-   margin: 0 ; 
-    border: 1px ; 
-    padding: 5px; 
-    line-height: 1.3em; 
-}
-          
-ul {
-    list-style-type: none;
-     margin: 0px;
-     padding: 1px;
-     overflow: hidden;
-     background-color: black;
-     text-align: center;
-    
-}li {
-  text-align: center;
-}
-
-li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
 }
