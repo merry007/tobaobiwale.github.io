@@ -5,7 +5,11 @@
       display: none;
   }
       
-  nav ul.hide {display: block;}
+  nav ul.hide {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
   
   nav ul {
       margin-left: 2%;
