@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    line-height: 1.1em;
+}
+
+body {
+	background-color: #fff;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+header {
+	background-color: rgb(11, 191, 223);
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 8rem;
+	height: auto;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 1.rem;
+	margin: 0 0 0 17px;
+}
+
+.top {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(12, 12, 12);
+	margin-left: 20px;
+	font-size: 1.5rem;
+}
+
+button {
+    border-radius: 4px;
+    color:red;
+}
+
+/* NAVIGATION */
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+nav {
+    background-color:white;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:#ffff
+    ;
+    border-top: 1px solid rgba(139, 136, 150, 0.3);
+}
+
+nav ul li a:hover {
+    background-color:rgb(212, 13, 13);
+}
+ nav ul.hide {display: none;}
+
+
+   /* Footer */
+   footer {
+    background-color: #1a0ce9;
+    Color: White;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0.5rem;
+    font-size: 15px;
+}
