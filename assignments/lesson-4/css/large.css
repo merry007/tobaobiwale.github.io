@@ -31,6 +31,43 @@ div#Summary {
     position: absolute;
     padding: 2rem;
     top: 15px;
-    left: 250px;
+    left: 20px;
+}
+
+ /* Main Section */
+
+ main {
+    margin: 0 3% 0 3%;
+}
+
+  .container {
+    display:flex;
+    justify-content: center;
+    background-color:#d5f0f1;
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.text {
+    align-self: center ;
+     margin-right: 100px;
+  }
+
+.image {
+    float: left;
+}
+
+.contact {
+    display:flex;
+    justify-content: center;
+    background-color:#d5f0f1;
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.content {
+    text-align: right;
 }
 }
