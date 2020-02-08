@@ -30,8 +30,8 @@
 .forecast {
     display: inline-block;
     font-family: 'Lato' , sans-serif;
-    padding-top: 1.rem;
-    text-align:center;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .forecast table {

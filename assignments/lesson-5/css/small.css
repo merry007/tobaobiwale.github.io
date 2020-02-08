@@ -1,27 +1,25 @@
 * {
     box-sizing: border-box;
-    margin: 1px;
-    padding: 0;
-    line-height: 1.1em;
-}
+  }
 
 body {
 	background-color: #fff;
 	padding: 1rem;
-	margin: 1rem;
-}
+    margin: 1rem;
+    text-align: center;
+   }
 
 header {
 	background-color: rgb(11, 191, 223);
-	padding: 5px 0;
+	padding:0;
 	display: flex;
-	align-items:center;
+    align-items: center;
 	justify-content:center;
 }
 
 header img {
-	width: 8rem;
-	height: auto;
+	width: 90px;
+	vertical-align: sub;
 }
 
 .heading {
@@ -90,18 +88,17 @@ nav ul li a:hover {
 /* MAIN */
 
 main {
-    max-width: 800px;
-    margin: auto;
-    padding: 5px;
+    margin-top: 1rem;
+    padding: 10px;
   }
 
   h2 {
       text-align: center;
+     
   }
 
 .hero img {
-   max-width: 800%;
-    margin:0;
+    margin: 0;
 }
 
 .hero {
@@ -115,9 +112,9 @@ div#Summary {
     background-color: whitesmoke;
     opacity: 0.7;
     position: absolute;
-    padding: 3px;
+    padding: 2rem;
     top: 15px;
-    left: 10px;
+    left: 250px;
 }
 
 .wrapper {
@@ -136,25 +133,50 @@ div#Summary {
     background-color: rgb(207,232,220);
     padding: 1em;
   } 
+  
+  /* Main Section */
 
-  section.content1 {
+  main {
+    margin: 0 3% 0 3%;
+}
+
+  .container {
     display:flex;
     justify-content: center;
+    background-color:#d5f0f1;
     margin-left: 20px;
-    text-decoration: none;
-}
-.text1{
-   
-   margin-right: 15px;
+    font-size: 20px;
+    margin: 2px;
 }
 
-img {
-    max-width: 70em;
-    float: right;
+.text {
+    align-self: center ;
+     margin-right: 100px;
+  }
+
+.image {
+    float: left;
 }
- .p {
-     text-align: left;
- }
+
+.contact {
+    display:flex;
+    justify-content: center;
+    background-color:#d5f0f1;
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.content {
+    text-align: right;
+}
+
+googlemap {
+    text-align: left;
+
+}
+
+  
 /* Footer */
 footer {
     background-color: #1a0ce9;
