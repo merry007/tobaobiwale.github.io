@@ -93,7 +93,7 @@ main {
   }
 
   h2 {
-      text-align: center;
+      
      
   }
 
@@ -102,17 +102,17 @@ main {
 }
 
 .hero {
-    width:100%;
-    height:auto;
+    widows: 960px;;
+    height: 300px;
     position: relative;
-    margin-bottom: 40px;
+    margin: 10px auto;
 } 
 
 div#Summary {
     background-color: whitesmoke;
-    opacity: 0.7;
+    opacity: .7;
     position: absolute;
-    padding: 2rem;
+    padding: 1.5rem;
     top: 15px;
     left: 20px;
 }
@@ -156,20 +156,20 @@ div#Summary {
 
 .image {
     float: left;
+    width: 100%;
 }
 
 .contact {
-    display:flex;
-    justify-content: center;
-    background-color:#d5f0f1;
-    margin-left: 20px;
-    font-size: 20px;
-    margin: 2px;
+    display: flex;
+    float: right;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 
-.content {
-    text-align: right;
+.googlemap {
+   float: left;
 }
+
 
   
 /* Footer */

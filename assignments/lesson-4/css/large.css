@@ -27,9 +27,9 @@ nav ul li a {
 
 div#Summary {
     background-color: whitesmoke;
-    opacity: 0.7;
+    opacity: .7;
     position: absolute;
-    padding: 2rem;
+    padding: 1.5rem;
     top: 15px;
     left: 20px;
 }

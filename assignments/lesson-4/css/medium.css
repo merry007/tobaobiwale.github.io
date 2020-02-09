@@ -21,5 +21,13 @@ nav ul li a {
     padding: .8rem 1rem;
 }
 
+div#Summary {
+    background-color: whitesmoke;
+    opacity: .7;
+    position: absolute;
+    padding: 1.5rem;
+    top: 15px;
+    left: 20px;
+}
 
 }
