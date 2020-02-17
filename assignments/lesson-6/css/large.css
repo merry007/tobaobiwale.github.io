@@ -1,0 +1,107 @@
+/*NAVIGATION*/
+
+nav ul.hide {
+    display:inline-flex;
+    width: 100%; justify-content: center;
+
+}
+
+ nav button {
+     display: none;
+ }
+
+ nav ul li {
+     font-size: 1.3em;
+     border: none;
+     border-right: 1px solid black;
+     padding: .6rem 1rem;
+}
+
+   nav ul li {
+    margin: 0 ; 
+    border: 1px ; 
+    padding: 5px; 
+    line-height: 1.3em;      
+}
+     
+   ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+li {
+display: inline-block;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ /* MAIN */
+ main {
+    max-width: 900px;
+    margin: auto;
+}
+ 
+    /*5 DAY FORCAST*/
+    div#forecast {
+        display: inline-block;
+        font-family: 'Lato' , sans-serif;
+        padding: auto;
+        text-align:center;
+    }
+
+    div#forecast table {
+        margin: auto 41px auto;
+    }
+
+    div#forecast td,
+    div#forecast th {
+        border: 3px solid whitesmoke;
+        color: black;
+        padding: 1.3%;
+        font-size: 1.2rem;
+        background-color: lightblue;
+    }
+
+    div#forecast tbody {
+        font-size: 1.5em;
+    }
+
+    /*Weather Photos*/
+    div.weatherPhotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.weatherPhotos figure:hover {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color:#d5f0f1;
+        margin-left: 0.5px;
+        font-size: 1.5rem;
+        margin: 2px;
+    }
+    
+    .text {
+        align-self: center ;
+        margin-right: 100px;
+        text-align: left;
+        
+      }
+    
+ .image {
+        float: right;
+       margin: 1 7 14 14;

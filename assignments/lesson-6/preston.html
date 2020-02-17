@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Preston Homepage</title>
+    <meta name="description" content="Wearther project website for Toba A. Obiwale in CIT 230 BYU- Idaho.">
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<header>
+	<picture>
+		<img src="image/logo.png" alt="Sunshine logo">
+	</picture>
+	<section class="heading">
+		<h1> Weather-Checker </h1>
+		<div class="top">Weather you can always rely on!</div>
+	</section>
+</header>
+
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul> 
+    <li><a href="index.html">Home</a></li>
+    <li><a href="preston.html">Preston</a></li>
+    <li><a href="sodaspring.html">Soda Spring</a></li>
+    <li><a href="fishhaven.html">Fish Haven</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+</nav>
+
+<main>
+    <h2>Preston-Idaho</h2>
+<div id="hero">
+      <img src="image/cit230-franklin.jpeg" alt="What a sunny day" sizes="50vw"
+      srcset="image/cit230-franklin.jpeg 288w, image/cit230-franklin.jpeg 580w,
+      image/cit230-franklin.jpeg 950w">
+
+      <section class="Summary">
+        <h3>Weather Summary</h3>
+        <p>Currently: <span id="currently"></span></p>
+        <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+        <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+        <P>Humidity: <span id="Humidity"></span>%</P>
+        <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+      </section>
+</div>
+    
+<div id="forecast">
+      <h3>5 Days Forcast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th><span id="day1">Tuesday</span></th>
+            <th><span id="day2">Wednesday</span></th>
+            <th><span id="day3">Thursday</span></th>
+            <th><span id="day4">Friday</span></th>
+            <th><span id="day5">Saturday</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><br><img id="icon1" src="https://openweathermap.org/img/w/01d.png"><span id="temp1"></span>&deg;F</td>
+            <td><br><img id="icon2" src="https://openweathermap.org/img/w/01d.png"><span id="temp2"></span>&deg;F</td>
+            <td><br><img id="icon3" src="https://openweathermap.org/img/w/03d.png"><span id="temp3"></span>&deg;F</td>
+            <td><br><img id="icon4" src="https://openweathermap.org/img/w/10d.png"><span id="temp4"></span>&deg;F</td>
+            <td><br><img id="icon5" src="https://openweathermap.org/img/w/01d.png"><span id="temp5"></span>&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<div class="container">
+    <section class="text">
+    <h2> Landscape </h2>
+     <p> Winter temperatures will be above normal, on average, in the north and below average in central and southern
+         portions of the region, with the coldest periods in mid- to late December and early January and from late January 
+         through the first half of February. Precipitation and snowfall will be above normal, with the snowiest periods in 
+         mid- to late December, early and late January, early February, and early and late March. April and May will be cooler than normal, 
+         with near-normal precipitation. Summer will be slightly cooler and rainier than normal, with the hottest period from late June 
+         through early July. September and October will be warmer than normal, with below-normal precipitation..</p>      
+ 
+       <img class='image' src="image/lds.jpeg" alt="LDS">
+     </section>
+</div>
+
+<footer>
+    &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
+</footer>
+<script src="script/currentdate.js"></script>
+<script src="script/hamburger.js"></script>
+<script src="script/windchill.js"></script>
+<script src="script/forecast.js"></script>
+<script src="script/weatherapi.js"></script>
+</body> 
+
+</html>
+</body>

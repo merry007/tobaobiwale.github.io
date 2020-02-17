@@ -23,10 +23,11 @@
 	</section>
 </header>
 
+<main>
   <nav>
-      <nav class="clearfix">
+  <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
-      <ul id="myNav"class="hide">
+      <ul class="myNav" id="hide">
       <li><a href="index.html">Home</a></li>
       <li><a href="preston-5.html">Preston </a></li>
       <li><a href="soda-springs.html">Soda Springs</a></li>
@@ -38,87 +39,92 @@
  
   <main>
     <h2>Preston-Idaho</h2>
-    <section class="hero">
+    <div class="hero">
       <img src="image/cit230-franklin.jpeg" alt="What a sunny day">
 
-      <div id="Summary">
+      <section id="Summary">
         <h3>Weather Summary</h3>
         <p>Currently: <span id="currently"></span></p>
         <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
         <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
         <P>Humidity: <span id="Humidity"></span>%</P>
         <p>Wind Speed: <span id="windSpeed"></span>mph</p>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="forecast">
-        <h3>5 Days Forcast</h3>
-        <table>
-          <thead>
-            <tr>
-              <th><span id="day1">Tuesday</span></th>
-            <th><span id="day2">Wednesday</span></th>
-            <th><span id="day3">Thursday</span></th>
-            <th><span id="day4">Friday</span></th>
-            <th><span id="day5">Saturday</span></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><br><img id="icon1" src="https://openweathermap.org/img/w/01d.png"><span id="temp1"></span>&deg;F</td>
-              <td><br><img id="icon2" src="https://openweathermap.org/img/w/01d.png"><span id="temp2"></span>&deg;F</td>
-              <td><br><img id="icon3" src="https://openweathermap.org/img/w/03d.png"><span id="temp3"></span>&deg;F</td>
-              <td><br><img id="icon4" src="https://openweathermap.org/img/w/10d.png"><span id="temp4"></span>&deg;F</td>
-              <td><br><img id="icon5" src="https://openweathermap.org/img/w/01d.png"><span id="temp5"></span>&deg;F</td>
-            </tr>
-          </tbody>
-        </table>
+      <h3>5 Days Forcast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th><span id="day1">Tuesday</span></th>
+          <th><span id="day2">Wednesday</span></th>
+          <th><span id="day3">Thursday</span></th>
+          <th><span id="day4">Friday</span></th>
+          <th><span id="day5">Saturday</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><br><img id="icon1" src="https://openweathermap.org/img/w/01d.png"><span id="temp1"></span>&deg;F</td>
+            <td><br><img id="icon2" src="https://openweathermap.org/img/w/01d.png"><span id="temp2"></span>&deg;F</td>
+            <td><br><img id="icon3" src="https://openweathermap.org/img/w/03d.png"><span id="temp3"></span>&deg;F</td>
+            <td><br><img id="icon4" src="https://openweathermap.org/img/w/10d.png"><span id="temp4"></span>&deg;F</td>
+            <td><br><img id="icon5" src="https://openweathermap.org/img/w/01d.png"><span id="temp5"></span>&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+<div class="container">
+     <h2 id class="history">Landscape</h2>
+      <section class="text">
+      
+        <p> Winter temperatures will be above normal, on average, in the north and below average in central and southern
+          portions of the region, with the coldest periods in mid- to late December and early January and from late January 
+          through the first half of February. Precipitation and snowfall will be above normal, with the snowiest periods in 
+          mid- to late December, early and late January, early February, and early and late March. April and May will be cooler than normal, 
+          with near-normal precipitation. Summer will be slightly cooler and rainier than normal, with the hottest period from late June 
+          through early July. September and October will be warmer than normal, with below-normal precipitation..</p>      
+  
+        <img class='image' src="image/lds.jpeg" alt="LDS">
       </section>
+</div>
 
-      <section class="container">
-        <div class text>
-            <h2 id="history">Landscape</h2>
-           <p> Winter temperatures will be above normal, on average, in the north and below average in central and southern
-            portions of the region, with the coldest periods in mid- to late December and early January and from late January 
-            through the first half of February. Precipitation and snowfall will be above normal, with the snowiest periods in 
-            mid- to late December, early and late January, early February, and early and late March. April and May will be cooler than normal, 
-            with near-normal precipitation. Summer will be slightly cooler and rainier than normal, with the hottest period from late June 
-            through early July. September and October will be warmer than normal, with below-normal precipitation..</p>      
-        </div>
-            <div class='image'>
-          <img src="image/lds.jpeg" alt="LDS">
-        </div>
-      </section>
-
-      <section class="contact">
-        <div class="content"></div>
-        <h3>Preston Weather-Checker</h3> <br>
-         123 Main Street-Preston, ID 5604473<br>
-          Phone - 000123-9900<br>
-          Email - preston@weather-checker.com<br>
-         <ul>
-          <li><a href="https://twitter.com/" target="_blank"><img src="image/twitter.png"  width="50px" height="50px"></a></li>
-          <li><a href="https://facebook.com/" target="_blank"><img src="image/facebook.png"  width="50px" height="50px"></a></li>
-          <li><a href="https://linkedin.com/" target="_blank"><img src="image/linkedin.png"  width="50px" height="50px"></a></li>
-          <li><a href="https://instagram.com/" target="_blank"><img src="image/instagram.png"  width="50px" height="50px"></a></li>
-         </ul>
-        </div>
-
-     <div class="googlemap">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.
-          91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f
-          78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2suk!4v1581
-          149838519!5m2!1sen!2suk" width="800" height="300" frameborder="0" style="border:10;" allowfullscreen=""></iframe>
-     </div>
+<div class="contact">
+  <h3>Preston Weather-Checker</h3>
+     <section class="contact">
+       123 Main Street-Preston, ID 5604473<br>
+        Phone - 000123-9900<br>
+        Email - preston@weather-checker.com<br>
+      
+       <ul>
+        <li><a href="https://twitter.com/" target="_blank"><img src="image/twitter.png"  width="50px" height="50px"></a></li>
+        <li><a href="https://facebook.com/" target="_blank"><img src="image/facebook.png"  width="50px" height="50px"></a></li>
+        <li><a href="https://linkedin.com/" target="_blank"><img src="image/linkedin.png"  width="50px" height="50px"></a></li>
+        <li><a href="https://instagram.com/" target="_blank"><img src="image/instagram.png"  width="50px" height="50px"></a></li>
+       </ul>
      </section>
+</div>
 
-  <footer>
-    &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
+<div class="googlemap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.
+        91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f
+        78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2suk!4v1581
+        149838519!5m2!1sen!2suk" width="800" height="300" frameborder="0" style="border:10;" allowfullscreen=""></iframe>
+</div>
+<main>
+
+<footer>
+  &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
 </footer>
 <script src="script/currendate.js"></script>
 <script src="script/hamburger.js"></script>
 <script src="script/forecast.js"></script>
-</body> 
+<script src="script/weatherapi.js"></script>
+<script src="script/windchill.js"></script>
+
+<body> 
 
 </html>
-</body>
+
