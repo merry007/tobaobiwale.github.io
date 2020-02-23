@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+	background-color: #fff;
+	padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+   }
+
+header {
+	background-color: rgb(11, 191, 223);
+	padding:0;
+	display: flex;
+    align-items: center;
+	justify-content:center;
+}
+
+header img {
+	width: 90px;
+	vertical-align: sub;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 1.rem;
+	margin: 0 0 0 17px;
+}
+
+.top {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(12, 12, 12);
+	margin-left: 20px;
+	font-size: 1.5rem;
+}
+
+button {
+    border-radius: 4px;
+    color:red;
+}
+
+/*Weather Photos*/
+div.weather {
+    display: grid;
+    padding: 3%;
+    grid-template-columns: repeat(1, 100%);
+}
+
+div.weatherPhotos figure img {
+    width: 100%;
+}
+
+div.weatherPhotos figure figcaption {
+text-align:center;
+font-family:'Inconsolata', sans-serif;
+font-size: 1.3rem;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1a0ce9;
+    Color: White;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0.5rem;
+    font-size: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
