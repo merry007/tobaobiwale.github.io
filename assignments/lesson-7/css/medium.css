@@ -1,6 +1,6 @@
 @media only screen and (min-width:32.5em) {
 
- div.weatherPhotos {
+ div.weather {
     grid-template-columns: repeat(2, 1fr);
  }
 }

@@ -46,17 +46,24 @@ button {
 }
 
 /*Weather Photos*/
+main {
+    max-width:1020px;
+    padding:0 .5rem;
+    text-align: center;
+    position: relative;
+}
+
 div.weather {
     display: grid;
     padding: 3%;
     grid-template-columns: repeat(1, 100%);
 }
 
-div.weatherPhotos figure img {
-    width: 100%;
+div.weather figure img {
+    width: 30rem;
 }
 
-div.weatherPhotos figure figcaption {
+div.weather figure figcaption {
 text-align:center;
 font-family:'Inconsolata', sans-serif;
 font-size: 1.3rem;
