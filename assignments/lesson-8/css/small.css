@@ -11,7 +11,7 @@ body {
    }
 
 header {
-	background-color: rgb(11, 191, 223);
+	background-color: rgb(163, 233, 163);
 	padding:0;
 	display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ button {
 
  /* NAVIGATION HERE */
  nav ul {
-	background-color: rgb(54, 20, 202) ;
+	background-color: rgb(17, 192, 11) ;
 	list-style-type: none;
 	padding: 0;
 	}
@@ -139,7 +139,7 @@ form {
  fieldset {
   max-width: 500px;
   margin: 10px auto;
-  background-color: lightgrey;
+  background-color: rgb(171, 224, 109);
 
 
  }
@@ -221,14 +221,14 @@ textarea{
 }
 button{
     border-radius: 4px;
-    background-color: rgb(64, 64, 204);
+    background-color: rgb(64, 204, 99);
     color: white;
     padding: 10px;
 }
 
 /* Footer */
 footer {
-    background-color: #1a0ce9;
+    background-color: #3ccc37;
     Color: White;
     display: flex;
     flex-flow: column;
