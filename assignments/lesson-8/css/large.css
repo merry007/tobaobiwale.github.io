@@ -1,0 +1,51 @@
+/*NAVIGATION*/
+
+nav ul.hide {
+    display:inline-flex;
+    width: 100%; justify-content: center;
+
+}
+
+ nav button {
+     display: none;
+ }
+
+ nav ul li {
+     font-size: 1.3em;
+     border: none;
+     border-right: 1px solid black;
+     padding: .6rem 1rem;
+}
+
+   nav ul li {
+    margin: 0 ; 
+    border: 1px ; 
+    padding: 5px; 
+    line-height: 1.3em;      
+}
+     
+   ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+li {
+display: inline-block;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ /* MAIN */
+ main {
+    max-width: 900px;
+    margin: auto;
+}
