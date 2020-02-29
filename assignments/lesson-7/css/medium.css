@@ -1,4 +1,5 @@
-@media only screen and (min-width:32.5em) {
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
 
  div.weather {
     grid-template-columns: repeat(2, 1fr);

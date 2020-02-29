@@ -1,4 +1,5 @@
-@media only screen and (min-width:60em) {
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
 
 /*NAVIGATION*/
 
@@ -60,6 +61,7 @@ div.weather {
     padding: 3%;
     margin: 5rem;
     grid-template-columns: repeat(3, 100%);
+    max-width: 100%;
 }
 
 div.weather figure:hover {

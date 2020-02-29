@@ -47,7 +47,7 @@ button {
 
 /*Weather Photos*/
 main {
-    max-width:1020px;
+    max-width: width 800px;
     padding:0 .5rem;
     text-align: center;
     position: relative;
@@ -60,7 +60,7 @@ div.weather {
 }
 
 div.weather figure img {
-    width: 30rem;
+    width: 10rem;
 }
 
 div.weather figure figcaption {
