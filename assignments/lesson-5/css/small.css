@@ -132,8 +132,11 @@ div#forecast {
 }
 
 .map {
-	display: none;
+	margin-top: 2px;
+	float: left;
+	margin-bottom: 2px;
 }
+
 
 .contact {
    text-align: center;
