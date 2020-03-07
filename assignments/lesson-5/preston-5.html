@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Preston Homepage</title>
+    <title> Preston Page </title>
     <meta name="description" content="Wearther project website for Toba A. Obiwale in CIT 230 BYU- Idaho.">
     <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,26 +23,26 @@
 	</section>
 </header>
 
-<main>
-  <nav>
-  <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;</button>
-      <ul class="myNav" id="hide">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="preston-5.html">Preston </a></li>
-      <li><a href="soda-springs.html">Soda Springs</a></li>
-      <li><a href="fish-haven.html">Fish Haven</a></li>
-      <li><a href="storm-center.html"> Storm Center</a></li>
-      <li><a href="gallery.html"> Gallery</a></li>
+<nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul class id="myNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="preston.html">Preston</a></li>
+    <li><a href="sodaspring.html">Soda Spring</a></li>
+    <li><a href="fishhaven.html">Fish Haven</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery-8.html">Gallery</a></li>
     </ul>
-  </nav>
- 
-  <main>
-    <h2>Preston-Idaho</h2>
-    <div class="hero">
-      <img src="image/cit230-franklin.jpeg" alt="What a sunny day">
+</nav>
 
-      <section id="Summary">
+<main>
+    <h2>Preston-Idaho</h2>
+<div id="hero">
+      <img src="image/cit230-franklin.jpeg" alt="What a sunny day" sizes="50vw"
+      srcset="image/cit230-franklin.jpeg 288w, image/cit230-franklin.jpeg 580w,
+      image/cit230-franklin.jpeg 950w">
+
+      <section class="Summary">
         <h3>Weather Summary</h3>
         <p>Currently: <span id="currently"></span></p>
         <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
@@ -50,18 +50,18 @@
         <P>Humidity: <span id="Humidity"></span>%</P>
         <p>Wind Speed: <span id="windSpeed"></span>mph</p>
       </section>
-    </div>
-
-    <section class="forecast">
+</div>
+    
+<div id="forecast">
       <h3>5 Days Forcast</h3>
       <table>
         <thead>
           <tr>
             <th><span id="day1">Tuesday</span></th>
-          <th><span id="day2">Wednesday</span></th>
-          <th><span id="day3">Thursday</span></th>
-          <th><span id="day4">Friday</span></th>
-          <th><span id="day5">Saturday</span></th>
+            <th><span id="day2">Wednesday</span></th>
+            <th><span id="day3">Thursday</span></th>
+            <th><span id="day4">Friday</span></th>
+            <th><span id="day5">Saturday</span></th>
           </tr>
         </thead>
         <tbody>
@@ -74,57 +74,42 @@
           </tr>
         </tbody>
       </table>
-    </section>
-
-<div class="container">
-     <h2 id class="history">Landscape</h2>
-      <section class="text">
-      
-        <p> Winter temperatures will be above normal, on average, in the north and below average in central and southern
-          portions of the region, with the coldest periods in mid- to late December and early January and from late January 
-          through the first half of February. Precipitation and snowfall will be above normal, with the snowiest periods in 
-          mid- to late December, early and late January, early February, and early and late March. April and May will be cooler than normal, 
-          with near-normal precipitation. Summer will be slightly cooler and rainier than normal, with the hottest period from late June 
-          through early July. September and October will be warmer than normal, with below-normal precipitation..</p>      
-  
-        <img class='image' src="image/lds.jpeg" alt="LDS">
-      </section>
 </div>
 
+<div class="content1">
+      <h2 class="text"> Landscape </h2>
+        <p class="text001"> Winter temperatures will be above normal, on average, in the north and below average in central and southern
+        portions of the region, with the coldest periods in mid- to late December and early January and from late January 
+        through the first half of February. Precipitation and snowfall will be above normal, with the snowiest periods in 
+        mid- to late December, early and late January, early February, and early and late March. April and May will be cooler than normal, 
+        with near-normal precipitation. Summer will be slightly cooler and rainier than normal, with the hottest period from late June 
+        through early July. September and October will be warmer than normal, with below-normal precipitation.</p>
+      <img src="image/lds.jpeg" alt="LDS">
+</div> 
+
+<div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2suk!4v1583572242241!5m2!1sen!2suk" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
 <div class="contact">
-  <h3>Preston Weather-Checker</h3>
-     <section class="contact">
-       123 Main Street-Preston, ID 5604473<br>
-        Phone - 000123-9900<br>
-        Email - preston@weather-checker.com<br>
-      
-       <ul>
-        <li><a href="https://twitter.com/" target="_blank"><img src="image/twitter.png"  width="50px" height="50px"></a></li>
-        <li><a href="https://facebook.com/" target="_blank"><img src="image/facebook.png"  width="50px" height="50px"></a></li>
-        <li><a href="https://linkedin.com/" target="_blank"><img src="image/linkedin.png"  width="50px" height="50px"></a></li>
-        <li><a href="https://instagram.com/" target="_blank"><img src="image/instagram.png"  width="50px" height="50px"></a></li>
-       </ul>
-     </section>
+            <p> Weather-Checker<br> 30N 15c E<br>Preston, ID 83263</p>
+            <p>tel: 999 999 9999<br>Weather-Checker@web></p>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
 </div>
-
-<div class="googlemap">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.
-        91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f
-        78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2suk!4v1581
-        149838519!5m2!1sen!2suk" width="800" height="300" frameborder="0" style="border:10;" allowfullscreen=""></iframe>
-</div>
-<main>
+</main>
 
 <footer>
-  &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
+    &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
 </footer>
-<script src="script/currendate.js"></script>
-<script src="script/hamburger.js"></script>
-<script src="script/forecast.js"></script>
-<script src="script/weatherapi.js"></script>
-<script src="script/windchill.js"></script>
 
-<body> 
+<script src="script/currentdate.js"></script>
+<script src="script/hamburger.js"></script>
+</body> 
 
 </html>
+</body>
 
+
+   

@@ -5,15 +5,15 @@
 body {
 	background-color: #fff;
 	padding: 1rem;
-    margin: 1rem;
-    text-align: center;
+  margin: 1rem;
+  text-align: center;
    }
 
 header {
 	background-color: rgb(11, 191, 223);
 	padding:0;
 	display: flex;
-    align-items: center;
+  align-items: center;
 	justify-content:center;
 }
 
@@ -159,7 +159,7 @@ div#summary h3 {
 }
 
 div#summary p {
-    font-family: 'Inconsolata' , sans-serif;
+    font-family: 'Lato' , sans-serif;
     padding-bottom: 5px;
     margin: 0;
 }
@@ -170,28 +170,9 @@ div#forecast {
 
 /* ARTICLE HERE */
 
-.container {
-    display: flex;
-    justify-content: center;
-    background-color:#d5f0f1;
-    margin-left: 0.5px;
-    font-size: 1.5rem;
-    margin: 2px;
-}
-
-.text {
-    align-self: center ;
-    margin-right: 100px;
-  }
-
-.container image {
-    float: right;
-   margin: 1 7 14 14;
-}
-
 /* Footer */
 footer {
-    background-color: #1a0ce9;
+    background-color: 1a0ce9;
     Color: White;
     display: flex;
     flex-flow: column;

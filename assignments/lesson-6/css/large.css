@@ -1,3 +1,4 @@
+@media only screen and (min-width: 60em) {
 /*NAVIGATION*/
 
 nav ul.hide {
@@ -86,23 +87,13 @@ text-decoration: none;
 
     }
 
-    .container {
-        display: flex;
-        justify-content: center;
-        background-color:#d5f0f1;
-        margin-left: 0.5px;
-        font-size: 1.5rem;
-        margin: 2px;
-    }
-    
-    .text {
-        align-self: center ;
-        margin-right: 100px;
-        text-align: left;
-        
-      }
-    
- .image {
+    #article_img {
         float: right;
-       margin: 1 7 14 14;
- }
+        margin: 3%;
+        max-width: 100%;
+        box-shadow: 0 0 10px darkorange;
+    }
+
+    main, footer {
+        max-width: 960px;
+    }
