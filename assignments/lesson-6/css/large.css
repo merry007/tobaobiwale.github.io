@@ -87,13 +87,32 @@ text-decoration: none;
 
     }
 
-    #article_img {
-        float: right;
-        margin: 3%;
-        max-width: 100%;
-        box-shadow: 0 0 10px darkorange;
+    .text001 {
+        align-self: center;
+        margin-right: 5px;
+       }
+       
+       .map {
+       margin-top: 2px;
+       float: left;
+       margin-bottom: 2px;
+       }
+       
+       
+       .contact {
+        text-align: center;
+        font-size: 19px;
+        margin-bottom: 2px;
+       }
+       .contact a {
+         padding: 1px;
+        font-size: 40px;
+         margin: auto;
+         background-color: #1030e7;
+         color:white;
+       }
+       
+       footer {
+        max-width: 963px;
     }
-
-    main, footer {
-        max-width: 960px;
-    }
+       }
