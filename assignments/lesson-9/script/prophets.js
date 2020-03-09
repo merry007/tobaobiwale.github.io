@@ -5,27 +5,30 @@ fetch(requestURL)
         return response.json();
     })
     .then(function(jsonObject) {
+      console.table(jsonObject);
+      
         const prophets = jsonObject['prophets'];
-        for (let i = 0; i < prophets.length; i++) {
+        for (let i = 0; i < prophets.length; i++){
+             let card = document.createElement('section');
 
-            let card = document.createElement('section');
-            let h2 = document.createElement('h2');
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            let birthdate = document.createElement('p');
-            let birthplace = document.createElement('p');
-            birthdate.textContent = "Date of Birth: " + prophets[i].birthdate;
-            birthplace.textContent = "Place of Birth: " + prophets[i].birthplace;
-            let img = document.createElement('img');
-            img.setAttribute('src', prophets[i].imageurl);
-            img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + [i]);
+             let image = document.createElement('img');
+             image.setAttribute('src', prophet[i].imageurl);
+             image.setAttribute('alt', prophet[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
+             card.appendChild(image);
 
+             let h2 = document.createElement('h2');
+             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+             card.appendChild(h2);
 
-            card.appendChild(h2);
-            card.appendChild(birthdate);
-            card.appendChild(birthplace);
-            card.appendChild(img);
-            document.querySelector('div.cards').appendChild(card);
+             let h2 = document.createElement('p');
+             p.textContent = prophets[i].birthdate;
+             card.appendChild(p);
+
+             let pp = document.createElement('p');
+             pp.textContent = prophets[i].birthdate;
+             pp.setAttribute('class', 'secondparagraph');
+             card.appendChild(pp);
+
+             document.querySelector('div.cards').appendChild(card);
         }
-
-        console.table(jsonObject); // temporary checking for valid response and data parsing
     });
