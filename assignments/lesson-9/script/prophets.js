@@ -12,20 +12,20 @@ fetch(requestURL)
              let card = document.createElement('section');
 
              let image = document.createElement('img');
-             image.setAttribute('src', prophet[i].imageurl);
-             image.setAttribute('alt', prophet[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
+             image.setAttribute('src', prophets[i].imageurl);
+             image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
              card.appendChild(image);
 
              let h2 = document.createElement('h2');
              h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
              card.appendChild(h2);
 
-             let h2 = document.createElement('p');
-             p.textContent = prophets[i].birthdate;
-             card.appendChild(p);
+             //let h2 = document.createElement('p');//
+            // p.textContent = prophets[i].birthdate;
+            // card.appendChild(p);
 
              let pp = document.createElement('p');
-             pp.textContent = prophets[i].birthdate;
+             pp.textContent = prophets[i].birthplace;
              pp.setAttribute('class', 'secondparagraph');
              card.appendChild(pp);
 
