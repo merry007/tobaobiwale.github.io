@@ -31,8 +31,6 @@ ul {
     margin: 0px;
     padding: 1px;
     overflow: hidden;
-    background-color: rgb(25, 60, 218);
-
 }
 
 li {
@@ -54,6 +52,30 @@ margin: auto;
 text-align: center;
 }
 
+/*5 DAY FORCAST*/
+div#forecast {
+    display: inline-block;
+    font-family: 'Lato' , sans-serif;
+    padding: auto;
+    text-align:center;
+}
+
+div#forecast table {
+    margin: auto 41px auto;
+}
+
+div#forecast td,
+div#forecast th {
+    border: 3px solid whitesmoke;
+    color: black;
+    padding: 1.3%;
+    font-size: 1.2rem;
+    background-color: lightblue;
+}
+
+div#forecast tbody {
+    font-size: 1.5rem;
+}
 
 /*Weather Photos*/
 div.weather {
@@ -66,42 +88,5 @@ div.weather {
 
 div.weather figure:hover {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-}
-
-
- /*ARTICLE*/
- article {
-    margin:auto;
-    max-width: 1000px;
-    padding:0;
-    font-size: 1.3em;
-}
-
-article p img {
-    width:400px ;
-    float:right;
-    margin-left: 20px;
-
-}
-
-article p {
-    padding:20px;
-}
-
-article h3 {
-    padding: 20px 00 20px;
-}
- article h4 {
-     padding-left: 20px; 
- }
-
-#homePage article{
-width:250px;
-position: relative;
-min-height:500px;
-}
-#homePage img{
-position:absolute;
-bottom: 0;
 }
 }
