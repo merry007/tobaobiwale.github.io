@@ -3,15 +3,14 @@
   }
 
 body {
-  background-color: rgb(188, 235, 188);
+	background-color: #fff;
   margin: 1rem;
   text-align: center;
-  height: 100%;
-  border: 10px;
-  }
+  font-family: 'Lato';
+   }
 
 header {
-  background-color: rgb(139, 245, 139);
+	background-color: rgb(120, 235, 53);
 	padding:0;
 	display: flex;
   align-items: center;
@@ -29,14 +28,14 @@ header img {
 }
 
 .heading h1 {
-	font-size: 1rem;
-	margin: 5px;
+	font-size: 1.rem;
+	margin: 0 0 0 17px;
 }
 
 .top {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: rgb(8, 7, 7);
+	color: rgb(12, 12, 12);
 	margin-left: 20px;
 	font-size: 1.5rem;
 }
@@ -46,9 +45,9 @@ button {
     color:red;
 }
 
-/* NAVIGATION HERE */
-nav ul {
-	background-color: rgb(29, 184, 50);
+ /* NAVIGATION HERE */
+ nav ul {
+	background-color: rgba(56, 173, 10, 0.671) ;
 	list-style-type: none;
 	padding: 0;
 	}
@@ -67,7 +66,7 @@ nav ul {
 	   }
    
 	 nav li:hover {
-    background-color: rgb(211, 37, 52);
+	   background-color:black;
 	 }
    
 	 li {
@@ -84,7 +83,7 @@ nav ul {
 
 {
     padding:2em;
-    color: blue;
+    color: rgb(43, 255, 0);
     background: white;
 }
  
@@ -126,20 +125,20 @@ nav ul {
       
       .dropdown:hover .dropbtn {
         background-color: #3e8e41;
+    
 }
 
 /* MAIN HERE */
-
 div#hero img {
-  width: 83%;
-  margin:2px;
+  width: 100%;
+  margin:0;
 }
 
 div#hero {
   width:100%;
   height:auto;
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 } 
 
 .Summary {
@@ -167,7 +166,39 @@ div#forecast {
   display: none;
 }
 
-  /*Weather Photos*/
+/* ARTICLE HERE */
+.content1 {
+  display:flex;
+  justify-content: center;
+  background-color:#d3f3d8;
+}
+
+.text001 {
+ align-self: center;
+ margin-right: 5px;
+}
+
+.map {
+margin-top: 2px;
+float: left;
+margin-bottom: 2px;
+}
+
+
+.contact {
+ text-align: center;
+ font-size: 18px;
+ margin-bottom: 2px;
+}
+.contact a {
+  padding: 1px;
+ font-size: 40px;
+  margin: auto;
+  background-color: #1030e7;
+  color:white;
+}
+
+/*Weather Photos*/
 main {
   padding:0 .5rem;
   text-align: center;
@@ -189,8 +220,41 @@ text-align:center;
 font-family:'Inconsolata', sans-serif;
 font-size: 1.3rem;
 }
-  
+
+/* ARTICLE HERE */
+section {
+  display: flex;
+  background-color: rgb(139, 245, 139);
+}
+
+article {
+  flex: 1 200px;
+}
+
+ .map {
+   float: left;
+   flex-wrap: wrap;
+   padding: 2px;
+   margin-left: 50px;
+   background-color: chocolate;
+  }
+
+  .contact {
+  float: inline-start;
+  flex-wrap: wrap;
+  background-color: #16910bd5;
+  padding-bottom: 45px;
+  }
+
+  .contact a {
+  padding: 1px;
+  font-size: 40px;
+  margin: auto;
+  Color: rgb(209, 0, 17);
+ }
+
  /* STORM CENTER*/
+
 form {
     text-align: left;
     padding: 20px;
@@ -223,8 +287,7 @@ input[type="radio"] {
 }
  span.answer {
      position: relative;
-     
- }
+  }
 
  .slidecontainer {
     width: 100%;
@@ -262,6 +325,7 @@ input[type="radio"] {
     background: #4CAF50;
     cursor: pointer;
   }
+
   #ratingvalue {
     padding: 10px;
   }
@@ -273,13 +337,14 @@ input[type="radio"] {
   
 input[type=radio]{
     margin: 8px 0;
-
 }
+
 textarea{
     margin: 8px 0;
     border-radius: 4px;
     width: 75%;
 }
+
 button{
     border-radius: 4px;
     background-color: rgb(64, 204, 99);
@@ -287,51 +352,7 @@ button{
     padding: 10px;
 }
 
- /*Homepage*/
-#homePage {
-  border: none;
-  text-align: center;
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  grid-gap: 3%;
-  margin-top: 30px;
-  background-color: rgba(238, 244, 245, 0.664);
- }
- 
-/* ARTICLE HERE */
-section {
-  display: flex;
-  background-color: rgb(139, 245, 139);
-}
-
-article {
-  flex: 1 200px;
-}
-
- .map {
-   float: left;
-   flex-wrap: wrap;
-   padding: 2px;
-   margin-left: 50px;
-   background-color: chocolate;
-  }
-
-  .contact {
-  float: inline-start;
-  flex-wrap: wrap;
-  background-color: #16910bd5;
-  padding-bottom: 45px;
-  }
-
-  .contact a {
-  padding: 1px;
-  font-size: 40px;
-  margin: auto;
-  Color: rgb(209, 0, 17);
-  }
-
-   /* Footer */
+/* Footer */
 footer {
   background-color: #16910bd5;
   Color: White;
@@ -339,9 +360,9 @@ footer {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 5px;
   margin: 0.5rem;
-  font-size: 15px;
+  font-size: 5px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
