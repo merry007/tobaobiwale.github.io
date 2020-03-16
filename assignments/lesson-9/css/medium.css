@@ -6,6 +6,35 @@ div.weather {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* Cards Section */
+
+.cards {
+  margin: 1rem 2%;
+}
+
+.cards section{
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: .5rem;
+}
+
+.col-2 {
+  order: 1;
+  padding-top: 0;
+}
+
+.cards section:nth-child(2) .col-2 {
+  order: -1;
+}
+
+.cards img {
+  max-width: 100%;
+}
+
+.col-1, .col-2 {
+  padding: 1rem;
+}
+
    /*homePage*/
   article#homePage {
   border: none;
