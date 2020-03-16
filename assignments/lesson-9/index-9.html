@@ -26,7 +26,7 @@
 <nav>
     <button onclick="toggleNavMenu()">&#9776;Menu</button>
     <ul class id="myNav">
-    <li><a href="index.html">Homepage</a></li>
+    <li><a href="index-9.html">Homepage</a></li>
     <li><a href="preston-9.html">Preston</a></li>
     <li><a href="sodaspring-9.html">Soda Spring</a></li>
     <li><a href="fishhaven-9.html">Fish Haven</a></li>
@@ -36,18 +36,48 @@
 </nav>
 
 <main>
-    <h2> Weather-Checker Homepage </h2>
-    <section class="hero">
-      <img src="image/cit230-franklin.jpeg" alt="What a sunny day" sizes="50vw"
-      srcset="image/cit230-franklin.jpeg 388w, image/cit230-franklin.jpeg 800w,
-      image/cit230-franklin.jpeg 1000w">
-      </section>
+  <h2>Preston-Idaho</h2>
+<div id="hero">
+    <img src="image/cit230-franklin.jpeg" alt="What a sunny day" sizes="50vw"
+    srcset="image/cit230-franklin.jpeg 288w, image/cit230-franklin.jpeg 580w,
+    image/cit230-franklin.jpeg 950w">
+
+    <section class="Summary">
+      <h3>Weather Summary</h3>
+      <p>Currently: <span id="currently"></span></p>
+      <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+      <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+      <P>Humidity: <span id="Humidity"></span>%</P>
+      <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+    </section>
+</div>
 
     <!-- JSON Town Info -->
     <div class="cards">
       
     </div>
-    
+
+    <section class="grid container">
+      <div class="imgContainer">
+          <picture>
+              <source media="(max-width: 400px)" srcset="image/hometown.jpeg">
+              <img class="responsiveImg" src="image/hometown.jpeg" alt="Prston Town">
+          </picture>
+      </div>
+      <div class="right">
+          <h3><strong>History</strong> </h3>
+          <p id="articleAuthor"> By Wikipedia</p>
+          <article class="inlne">As of the census[2] of 2010, there were 5,204 people, 
+            1,751 households, and 1,327 families residing in the city. The population density 
+            was 782.6 inhabitants per square mile (302.2/km2). There were 1,873 housing units 
+            at an average density of 281.7 per square mile (108.8/km2). The racial makeup of 
+            the city was 93.7% White, 0.2% African American, 0.7% Native American, 0.2% Asian, 
+            0.1% Pacific Islander, 3.3% from other races, and 1.7% from two or more races. 
+            Hispanic or Latino of any race were 7.5% of the population.
+          </article>
+      </div>
+  </section>
+
     <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2suk!4v1583572242241!5m2!1sen!2suk" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>

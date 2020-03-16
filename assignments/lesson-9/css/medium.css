@@ -35,6 +35,30 @@ div.weather {
   padding: 1rem;
 }
 
+  /* Article Section */
+
+  .grid {
+    grid-template-columns: 45% 55%;
+}
+
+.right {
+    margin-left: 2%;
+}
+
+.left {
+    display: block;
+}
+
+.imgContainer {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.icons {
+    max-width: 10%;
+    margin-right: 0.2em;
+}
+
    /*homePage*/
   article#homePage {
   border: none;

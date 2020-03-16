@@ -131,15 +131,14 @@ nav ul {
 /* MAIN HERE */
 
 div#hero img {
-  width: 83%;
-  margin:2px;
+  width: 100%;
+  margin:0;
 }
 
 div#hero {
-  width:100%;
   height:auto;
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 } 
 
 .Summary {
@@ -166,6 +165,7 @@ div#summary p {
 div#forecast {
   display: none;
 }
+
 
   /*Weather Photos*/
 main {
@@ -287,21 +287,7 @@ button{
     padding: 10px;
 }
 
- /*Homepage*/
-#homePage {
-  border: none;
-  text-align: center;
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  grid-gap: 3%;
-  margin-top: 30px;
-  background-color: rgba(238, 244, 245, 0.664);
- }
-
- /* card section*/
-
- /* Cards Section */
+/* Cards Section */
 
 .cards {
   display: grid;
@@ -335,6 +321,46 @@ button{
 .cards img {
   max-width: 90%;
 }
+
+/* Article Section */
+
+.container {
+  background-color: rgba(0, 0, 0, 10%);
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.imgContainer {
+  text-align: center;
+}
+
+.responsiveImg {
+  max-width: 95%;
+}
+
+.inlne {
+  display: inline;
+}
+
+.left {
+  display: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+.icons {
+  max-width: 12%;
+  margin-right: 0.2em;
+}
+
  
 /* ARTICLE HERE */
 section {
