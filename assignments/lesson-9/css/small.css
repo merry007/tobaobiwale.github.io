@@ -129,13 +129,13 @@ nav ul {
 }
 
 /* MAIN HERE */
-
 div#hero img {
   width: 100%;
   margin:0;
 }
 
 div#hero {
+  width:100%;
   height:auto;
   position: relative;
   margin-bottom: 40px;
@@ -143,9 +143,9 @@ div#hero {
 
 .Summary {
   background-color: whitesmoke;
-  opacity: 0.7;
+  opacity: 0.6;
   position: absolute;
-  padding: 3px;
+  padding: 2px;
   top: 15px;
   left: 10px;
 }
@@ -322,46 +322,6 @@ button{
   max-width: 90%;
 }
 
-/* Article Section */
-
-.container {
-  background-color: rgba(0, 0, 0, 10%);
-  padding: 1em;
-  margin-bottom: 1.5em;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-}
-
-.imgContainer {
-  text-align: center;
-}
-
-.responsiveImg {
-  max-width: 95%;
-}
-
-.inlne {
-  display: inline;
-}
-
-.left {
-  display: none;
-}
-
-.contact {
-  text-align: center;
-}
-
-.icons {
-  max-width: 12%;
-  margin-right: 0.2em;
-}
-
- 
 /* ARTICLE HERE */
 section {
   display: flex;

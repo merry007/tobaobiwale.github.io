@@ -59,12 +59,4 @@ div.weather {
     margin-right: 0.2em;
 }
 
-   /*homePage*/
-  article#homePage {
-  border: none;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3%;
-  margin-top: 30px;
-}  
+   

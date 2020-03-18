@@ -166,62 +166,72 @@ div#forecast {
   display: none;
 }
 
-/* ARTICLE HERE */
-.content1 {
-  display:flex;
-  justify-content: center;
-  background-color:#d3f3d8;
-}
+/* Cards Section */
 
-.text001 {
- align-self: center;
- margin-right: 5px;
-}
-
-.map {
-margin-top: 2px;
-float: left;
-margin-bottom: 2px;
-}
-
-
-.contact {
- text-align: center;
- font-size: 18px;
- margin-bottom: 2px;
-}
-.contact a {
-  padding: 1px;
- font-size: 40px;
-  margin: auto;
-  background-color: #1030e7;
-  color:white;
-}
-
-/*Weather Photos*/
-main {
-  padding:0 .5rem;
-  text-align: center;
-  position: relative;
-}
-
-div.weather {
+.cards {
   display: grid;
-  padding: 3%;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin: 1rem 3%;
 }
 
-div.weather figure img {
-  width: 10rem;
+.cards section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  align-items: center;
 }
 
-div.weather figure figcaption {
-text-align:center;
-font-family:'Inconsolata', sans-serif;
-font-size: 1.3rem;
+.cards h2 {
+  margin-bottom: .25rem;
 }
 
-/* ARTICLE HERE */
+.cards strong {
+  font-size: .8rem;
+}
+
+.col-2 {
+  order: -1;
+  padding-top: 1rem;
+}
+
+.cards img {
+  max-width: 90%;
+}
+
+/* Json Section */
+
+.container {
+  background-color: rgba(0, 0, 0, 10%);
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.imgContainer {
+  text-align: center;
+}
+
+.responsiveImg {
+  max-width: 95%;
+}
+
+.inlne {
+  display: inline;
+}
+
+.left {
+  display: none;
+}
+
+/* Article Here */
 section.content {
   display: flex;
   background-color: rgb(120, 235, 53);
@@ -253,104 +263,6 @@ article {
   Color: rgb(209, 0, 17);
  }
 
- /* STORM CENTER*/
-
-form {
-    text-align: left;
-    padding: 20px;
-    max-width: 500px;
-    margin: auto;
-}
-
- fieldset {
-  max-width: 500px;
-  margin: 10px auto;
-  background-color: rgb(171, 224, 109);
-}
-
-form h3 {
-    font-size: 20px;
-    font-family: "Arial", Courier, sans-serif;
-}
-
-input {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 8px 0;
-    border-radius: 4px;
-    padding: 5px;
-}
-
-input[type="radio"] {
-    position: absolute;
-    left: -120px;
-}
- span.answer {
-     position: relative;
-  }
-
- .slidecontainer {
-    width: 100%;
-  }
-  
-  .slider {
-    -webkit-appearance: none;
-    width: 50%;
-    height: 25px;
-    background: white;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-    border-radius: 4px;
-    margin: 8px 0;
-  }
-  
-  .slider:hover {
-    opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: rgb(40, 40, 179);
-    cursor: pointer;
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #4CAF50;
-    cursor: pointer;
-  }
-
-  #ratingvalue {
-    padding: 10px;
-  }
-
-  select[name=stormregion]{
-      margin: 8px 0;
-      border-radius: 4px;
-  }
-  
-input[type=radio]{
-    margin: 8px 0;
-}
-
-textarea{
-    margin: 8px 0;
-    border-radius: 4px;
-    width: 75%;
-}
-
-button{
-    border-radius: 4px;
-    background-color: rgb(64, 204, 99);
-    color: white;
-    padding: 10px;
-}
 
 /* Footer */
 footer {
@@ -362,7 +274,7 @@ footer {
   justify-content: center;
   padding: 5px;
   margin: 0.5rem;
-  font-size: 5px;
+  font-size: 15px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -371,3 +283,126 @@ footer {
     display: table;
     clear: both;
   }
+
+  /*Weather Photos*/
+main {
+  padding:0 .5rem;
+  text-align: center;
+  position: relative;
+}
+
+div.weather {
+  display: grid;
+  padding: 3%;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+div.weather figure img {
+  width: 10rem;
+}
+
+div.weather figure figcaption {
+text-align:center;
+font-family:'Inconsolata', sans-serif;
+font-size: 1.3rem;
+}
+
+
+/* STORM CENTER*/
+
+form {
+  text-align: left;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+fieldset {
+max-width: 500px;
+margin: 10px auto;
+background-color: rgb(171, 224, 109);
+}
+
+form h3 {
+  font-size: 20px;
+  font-family: "Arial", Courier, sans-serif;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -120px;
+}
+span.answer {
+   position: relative;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 25px;
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: rgb(40, 40, 179);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+#ratingvalue {
+  padding: 10px;
+}
+
+select[name=stormregion]{
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+input[type=radio]{
+  margin: 8px 0;
+}
+
+textarea {
+  margin: 8px 0;
+  border-radius: 4px;
+  width: 75%;
+}
+
+button{
+  border-radius: 4px;
+  background-color: rgb(64, 204, 99);
+  color: white;
+  padding: 10px;
+}

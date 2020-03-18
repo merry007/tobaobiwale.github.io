@@ -1,63 +1,62 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {}
 
-/*NAVIGATION*/
-
-nav ul.hide {
-  display:inline-flex;
-  width: 100%; justify-content: center;
-
-}
-
-nav button {
-   display: none;
-}
-
-nav ul li {
-   font-size: 1.3em;
-   border: none;
-   border-right: 1px solid black;
-   padding: .6rem 1rem;
-}
-
- nav ul li {
-  margin: 0 ; 
-  border: 1px ; 
-  padding: 5px; 
-  line-height: 1.3em;      
-}
-   
- ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 1px;
-  overflow: hidden;
-  background-color: rgb(51, 51, 51);
-}
-
-li {
-display: inline-block;
-}
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
 
 div.weather {
-grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-    
-/*homePage*/
-article#homePage {
-border: none;
-text-align: center;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 3%;
-margin-top: 30px;
-}  
+
+/* Cards Section */
+
+.cards {
+  margin: 1rem 2%;
+}
+
+.cards section{
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: .5rem;
+}
+
+.col-2 {
+  order: 1;
+  padding-top: 0;
+}
+
+.cards section:nth-child(2) .col-2 {
+  order: -1;
+}
+
+.cards img {
+  max-width: 100%;
+}
+
+.col-1, .col-2 {
+  padding: 1rem;
+}
+
+  /* Article Section */
+
+  .grid {
+    grid-template-columns: 45% 55%;
+}
+
+.right {
+    margin-left: 2%;
+}
+
+.left {
+    display: block;
+}
+
+.imgContainer {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.icons {
+    max-width: 10%;
+    margin-right: 0.2em;
+}
+
    

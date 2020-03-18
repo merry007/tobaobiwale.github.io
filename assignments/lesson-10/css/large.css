@@ -50,15 +50,10 @@ text-decoration: none;
  main {
     max-width: 900px;
     margin: auto;
-}
+    text-align: center;
+ }
 
-/* MAIN */
-main {
-    max-width: 900px;
-    margin: auto;
-}
- 
-    /*5 DAY FORCAST*/
+  /*5 DAY FORCAST*/
     div#forecast {
         display: inline-block;
         font-family: 'Lato' , sans-serif;
@@ -83,6 +78,31 @@ main {
     div#forecast tbody {
         font-size: 1.5rem;
     }
+
+    /* Cards Section */
+
+.cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1.25rem;
+}
+
+.cards section{
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: .5rem;
+}
+
+.cards section:nth-child(2) .col-2 {
+    order: 1;
+}
+
+.col-1 {
+    padding: 0;
+}
+
+.col-2 {
+    padding: 1rem;
+}
 
 /*Weather Photos*/
 div.weather {
