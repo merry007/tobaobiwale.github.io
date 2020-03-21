@@ -3,7 +3,7 @@
   }
 
 body {
-	background-color: #fff;
+	background-color: rgb(196, 240, 216);
   margin: 1rem;
   text-align: center;
   font-family: 'Lato';
@@ -304,7 +304,7 @@ div.weather figure img {
 div.weather figure figcaption {
 text-align:center;
 font-family:'Inconsolata', sans-serif;
-font-size: 1.3rem;
+font-size: 1.1rem;
 }
 
 
