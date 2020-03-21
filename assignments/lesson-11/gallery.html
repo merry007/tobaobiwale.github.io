@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title> Gallery Page</title>
+    <meta name="description" content="Wearther project website for Toba A. Obiwale in CIT 230 BYU- Idaho.">
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+</head>
+
+<body>
+<header>
+	<picture>
+		<img src="image/logo.png" alt="Sunshine logo">
+	</picture>
+	<section class="heading">
+		<h1> Weather-Checker </h1>
+		<div class="top">Weather you can always rely on!</div>
+	</section>
+</header>
+
+<nav>
+    <button onclick="toggleNavMenu()">&#9776;Menu</button>
+    <ul class id="myNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="preston.html">Preston</a></li>
+    <li><a href="sodaspring.html">Soda Spring</a></li>
+    <li><a href="fishhaven.html">Fish Haven</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+</nav>
+
+<main>
+     <h2>Image Gallery</h2>
+    <div class="weather">
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/seawaves-under.jpg" alt="Summer">
+       <figcaption>Seawaves Beauty</figcaption>
+       </figure>    
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/lighting-Strike.jpg" alt="Country View">
+       <figcaption> lighting-Strike</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/thunderstorm.jpg" alt="Thunder">
+       <figcaption>Thunder Storm</figcaption>
+       </figure>
+
+       <figure> 
+       <img src="image/placeholder400x266.png" data-src="image/tornado.jpg" alt=" Country Side">
+       <figcaption>Tornado</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/beachshore.jpg" alt="Mountain View">
+       <figcaption>Beach Shore</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/lightning.jpg" alt="Lightning">
+       <figcaption>Lightning</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/green-leaved.jpg" alt="Green">
+       <figcaption>Green Leaves</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/cold-snow.jpg" alt="Cold Snow">
+       <figcaption>Cold Snow</figcaption>
+       </figure>
+
+       <figure>
+       <img src="image/placeholder400x266.png" data-src="image/blue-metal.jpg" alt="Blue Metal">
+       <figcaption>Metal Lightning Reflection</figcaption>
+       </figure>
+    </div>
+</main>
+
+<footer>
+    &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
+</footer>
+
+<script src="script/observer.js"></script>
+<script src="script/currentdate.js"></script>
+<script src="script/functions.js"></script>
+
+</body> 
+</html>

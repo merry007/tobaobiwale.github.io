@@ -1,0 +1,132 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 65rem) {}
+
+/*NAVIGATION*/
+
+nav ul.hide {
+    display:inline-flex;
+    width: 100%; justify-content: center;
+
+}
+
+ nav button {
+     display: none;
+ }
+
+ nav ul li {
+     font-size: 1.3em;
+     border: none;
+     border-right: 1px solid black;
+     padding: .6rem 1rem;
+}
+
+   nav ul li {
+    margin: 0 ; 
+    border: 1px ; 
+    padding: 5px; 
+    line-height: 1.3em      ; 
+}
+     
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+li {
+display: inline-block;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+ }
+
+  /*5 DAY FORCAST*/
+    div#forecast {
+        display: inline-block;
+        font-family: 'Lato' , sans-serif;
+        padding: auto;
+        margin: auto;
+        text-align:center;
+    }
+
+    div#forecast table {
+        margin: auto 41px auto;
+    }
+
+    div#forecast td,
+    div#forecast th {
+        border: 1px solid rgb(173, 185, 6);
+        color: black;
+        height: 10px;
+        padding: 1.3%;
+        font-size: 1.2rem;
+        background-color: rgb(15, 230, 129);
+    }
+
+    div#forecast tbody {
+        font-size: 1.5rem;
+    }
+
+    /*JSON SECTION */
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1.25rem;
+    }
+    
+    .cards section{
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: .5rem;
+    }
+    
+    .cards section:nth-child(2) .col-2 {
+        order: 1;
+    }
+    
+    .col-1 {
+        padding: 0;
+    }
+    
+    .col-2 {
+        padding: 1rem;
+    }
+
+    /*Weather Photos*/
+.weather {
+    display: grid;
+    padding: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+}
+
+.weather figure:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+ /* Article Section */
+.container {
+    margin-bottom: 1.75em;
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgContainer {
+    padding-top: 0;
+    text-align: center;
+}
