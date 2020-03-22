@@ -247,26 +247,7 @@ div#hero img {
 
 
 /* Map and Content */
-section.content {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(120, 235, 53);
-}
 
-article {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-article.content1 {
-  text-align: left;
-  box-shadow: 0px;
-}
-
-article.img {
-float: right;
-border: 25px;
-}
 
  .map {
    float: right;
@@ -284,21 +265,40 @@ border: 25px;
   }
 
   .contact a {
-  padding: 1px;
-  font-size: 40px;
-  margin: auto;
-  Color: rgb(209, 0, 17);
+    padding: 1px;
+    font-size: 40px;
+    margin: auto;
+    Color: rgb(209, 0, 17);
  }
 
  /* Preston Page */
+
  .map {
    float: left;
  }
 
- /* Soda Spring Page */
- .map {
-  float: right;
+/* Soda Spring Page */
+  .map {
+  float: left;
 }
+
+.container {
+  display: flex;
+  border-style: double;
+}
+
+.image2 {
+  float: right;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin-left: 50px;
+}
+
+ .content2 {
+  padding: 1px;
+  margin: auto;
+  border-style: double;
+ }
 
 /* Footer */
 footer {
@@ -311,6 +311,7 @@ footer {
   padding: 5px;
   margin: 0.5rem;
   font-size: 15px;
+  border-style: double;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
