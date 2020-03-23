@@ -48,7 +48,7 @@ text-decoration: none;
 
 /* MAIN */
 main {
-    max-width: 900px;
+    max-width: 809px;
     margin: auto;
     text-align: center;
  }
@@ -57,13 +57,14 @@ main {
     div#forecast {
         display: inline-block;
         font-family: 'Lato' , sans-serif;
-        padding: auto;
-        margin: auto;
+        padding: 0px;
+        margin: 0px;
         text-align:center;
     }
 
     div#forecast table {
         margin: auto 41px auto;
+        max-width: 0px;
     }
 
     div#forecast td,
@@ -117,16 +118,30 @@ main {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
- /* Article Section */
-.container {
-    margin-bottom: 1.75em;
+/* Article Section */
+.content1 img {
+    float: right;
 }
 
-.grid {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.imgContainer {
-    padding-top: 0;
-    text-align: center;
-}
+/* Map and Content */
+.map {
+    float: right;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin-left: 50px;
+    background-color: chocolate;
+   }
+ 
+   .contact {
+   float: inline-start;
+   flex-wrap: wrap;
+   background-color: #74bd6ed5;
+   padding-bottom: 45px;
+   }
+ 
+   .contact a {
+     padding: 1px;
+     font-size: 40px;
+     margin: auto;
+     Color: rgb(209, 0, 17);
+  }

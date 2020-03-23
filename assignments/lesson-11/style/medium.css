@@ -5,3 +5,9 @@
 .weather {
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* JSON */
+.cards {
+  grid-template-columns: 1fr 1fr;
+  margin: 1.25rem;
+}

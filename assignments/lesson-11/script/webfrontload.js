@@ -1,1 +1,1 @@
-webFont.load({google:{familie: ["Lato","san-serif"]}});
+webFont.load({google:{familie: ["Inconsolata","san-serif"]}});

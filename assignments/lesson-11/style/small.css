@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -206,50 +207,14 @@ div#hero img {
 }
 
 /* Article Section */
-
-.container {
-  background-color: rgba(0, 0, 0, 10%);
-  padding: 1em;
-  margin-bottom: 1.5em;
+.content1 img {
+  float: left;
+  padding: 10px;
+  inline-size: 5px;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-}
-
-.imgContainer {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.responsiveImg {
-  max-width: 95%;
-}
-
-.inlne {
-  display: inline;
-}
-
-.left {
-  display: none;
-}
-
-.contact {
-  text-align: center;
-}
-
-.icons {
-  max-width: 12%;
-  margin-right: 0.2em;
-}
-
 
 /* Map and Content */
-
-
- .map {
+.map {
    float: right;
    flex-wrap: wrap;
    padding: 2px;
@@ -271,20 +236,15 @@ div#hero img {
     Color: rgb(209, 0, 17);
  }
 
- /* Preston Page */
-
- .map {
-   float: left;
- }
-
 /* Soda Spring Page */
-  .map {
+.map {
   float: left;
 }
 
 .container {
   display: flex;
   border-style: double;
+  flex-direction: row;
 }
 
 .image2 {
@@ -294,13 +254,13 @@ div#hero img {
   margin-left: 50px;
 }
 
- .content2 {
+.content2 {
   padding: 1px;
   margin: auto;
   border-style: double;
  }
 
-/* Footer */
+ /* Footer */
 footer {
   background-color: #16910bd5;
   Color: White;
@@ -443,4 +403,18 @@ font-family:'Inconsolata', sans-serif;
 font-size: 1.1rem;
 }
 
+/*Fish Haven*/
+.event {
+  margin: 0.5rem;
+  padding: 2rem;
+  background-color: rgb(81, 158, 107);
+}
+
+.event p {
+  font-size: 20px;
+}
  
+.event ul li {
+  padding: 2px;
+  margin: auto;
+}
