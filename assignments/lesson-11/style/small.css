@@ -242,11 +242,17 @@ div#hero img {
 }
 
 .container {
-  display: flex;
-  border-style: double;
-  flex-direction: row;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
 
+.grid {
+  border-color: #222e50;
+  border-style: double;
+  margin: 10px;
+
+
+}
 .image2 {
   float: right;
   flex-wrap: wrap;
@@ -405,9 +411,10 @@ font-size: 1.1rem;
 
 /*Fish Haven*/
 .event {
-  margin: 0.5rem;
-  padding: 2rem;
-  background-color: rgb(81, 158, 107);
+  margin: 1rem;
+  padding: .5rem;
+  background-color: rgb(170, 233, 191);
+  border-style: double;
 }
 
 .event p {
