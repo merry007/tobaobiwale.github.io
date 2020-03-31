@@ -119,6 +119,7 @@ html, body {
   border-color: #222e50;
   border-style: double;
   margin: 10px;
+  text-align: center;
 }
 
 .grid p {

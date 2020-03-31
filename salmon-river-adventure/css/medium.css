@@ -33,6 +33,22 @@ main {
     grid-template-columns: 1fr 1fr;
 } 
 
-
+.grid {
+    border-color: #222e50;
+    border-style: double;
+    margin: 10px;
+    
+  }
+  
+  .grid p {
+    margin: 0px;
+    padding: 0 28px 14px;
+    letter-spacing: 0.04em;
+    color: rgba(26, 26, 31, 0.836);
+    font-size: large;
+  }
+  h4 {
+      font-size: larger;
+  }
 
 } /*end medium */
