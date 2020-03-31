@@ -1,0 +1,38 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 560px) {}
+
+@media screen and (max-width: 560px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+ .topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+/* MAIN */
+main {
+    max-width: 809px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo img {
+    border-style: groove;
+    max-width: 100%;
+    position: relative;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+
+
+
+} /*end medium */

@@ -1,0 +1,155 @@
+* {box-sizing: border-box;}
+body {font-family: Spectral, serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+html, body {
+    background-color:#c6dbf0;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    height: 100%;
+ }
+  
+    /* Header */
+    .hero {
+        height: 1em;
+        z-index: 1;
+        padding: 1rem;
+    }
+
+    .hero img {
+        border-radius: 20rem;
+        display: block;
+    }
+
+    /* Navigation*/
+  .nav a {
+  color:rgb(15, 10, 10);
+    font-size: 1.2em;
+    height: 2em;
+    padding: 1em .6em;
+  }
+  
+  h1,h2,h3 {
+          color: black;
+          font-family: 'Spectral', serif;
+          font-size: 1.5em;
+  }
+    .nav ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 11px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: right;
+  }
+  
+    li {
+    border-left: 1px solid #bbb;
+     
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+    
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #cf5050;
+  }
+  .active {
+    background-color: brown;
+  } 
+
+  /* MAIN */
+    
+  .homepage img {
+      max-width: 100%;
+      padding: auto;
+      margin: auto;
+  }
+
+  .Summary {
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    padding: 2px;
+    top: 15px;
+    right: 100px;
+  }
+  
+  div#summary h3 {
+    font-size: 1em;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #0e4eff;
+  }
+  
+  div#summary p {
+    font-family: 'spectral' , serif;
+    padding-bottom: 5px;
+    margin: 1px;
+    font-size: small;
+  }
+  
+  div#forecast {
+    display: none;
+  }
+
+/* Gallery */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+
+.grid {
+  border-color: #222e50;
+  border-style: double;
+  margin: 10px;
+}
+
+.grid p {
+  margin: 0px;
+  padding: 0 28px 14px;
+  letter-spacing: 0.04em;
+  color: rgba(26, 26, 31, 0.836);
+  font-size: large;
+}
+h4 {
+    font-size: larger;
+}
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+  }
+  
+  .cta-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(235, 76, 13);
+  }
+  
+

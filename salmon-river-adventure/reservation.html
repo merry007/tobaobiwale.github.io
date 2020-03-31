@@ -1,0 +1,61 @@
+
+<div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+
+
+
+<form method="get" action="thankyou.html"> 
+    <fieldset>
+    <h3>Require Information</h3>
+    Full Name: <br>
+    <input type="text" name="Full Name" pattern="[A-Za-z -._]{3,99}" required><br>
+    E-mail: <br>
+    <input type="email" name="mail" placeholder="weather@mail.com"><br>
+    Zip code: <br>
+    <input type="number" name="zipcode" required><br>
+  </fieldset>
+  <fieldset>
+    <h3>Booking Information</h3>
+    Raft Date: <br>
+    <input type="date" name="raftdate"><br>
+    Raft Type:<br>
+    
+    <input list="adventure" name="type">
+    <datalist id="weather">
+        <option value="Hurricane">
+        <option value="Flashflood">
+        <option value="Hail">
+        <option value="Tornado">
+        <option value="Thunderstorm">
+    </datalist><br>
+  
+    Raft Level: <br>
+    
+    <div class="slidecontainer">
+           
+        <input type="range" min="1" max="10" value="5" class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <span id="ratingvalue">5</span>
+    </div>
+    Raft Region: <br>
+            <select name="raftregion">
+        <option value="selectregion">Select Region</option>
+        <option value="preston">Preston</option>
+        <option value="sodasprings">Soda Springs</option>
+        <option value="fishhaven">Fish Haven</option>
+    </select><br>
+    Skill level <br>
+    <input type="radio" name="dangerlevel" value="yes" checked><span class= "answer">Yes</span><br>
+    <input type="radio" name="dangerlevel" value="no" checked><span class= "answer">No</span><br>
+    <input type="radio" name="dangerlevel" value="maybe" checked><span class= "answer">Maybe</span><br>
+  </fieldset>
