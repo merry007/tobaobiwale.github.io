@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 65rem) {}
+@media only screen and (min-width: 65rem) {
 
 /*NAVIGATION*/
 
@@ -146,3 +146,10 @@ main {
      margin: auto;
      Color: rgb(209, 0, 17);
   }
+
+  /* FISH HAVEN */
+  .image001 img {
+    float: left;
+    margin: 5px;
+  }
+}
