@@ -438,6 +438,7 @@ font-size: 1.1rem;
   padding: .5rem;
   background-color: rgb(170, 233, 191);
   border-style: double;
+  clear: both;
 }
 
 .event p {
@@ -454,7 +455,9 @@ font-size: 1.1rem;
   margin: 5px;
 }
 
-.image001 img {
+.image001 {
   float: left;
   margin: 5px;
+  border: double;
 }
+
