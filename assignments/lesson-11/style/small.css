@@ -221,7 +221,6 @@ div#hero img {
 }
 
 .col-2 {
-  order: -1;
   padding-top: 1rem;
 }
 
@@ -266,22 +265,44 @@ div#hero img {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} 
+    grid-template-columns: 1fr 1fr;
+}
+
+.right {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.right img {
+  margin: 1rem;
+}
+.right article {
+  float: right;
+}
+
+.imgcontainer {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
 
 .grid {
   border-color: #222e50;
   border-style: double;
   margin: 10px;
-
-
 }
-.image2 {
-  float: right;
-  flex-wrap: wrap;
-  padding: 2px;
-  margin-left: 50px;
-}
+
+.image2 img {
+  float: left;
+  margin-left: 5rem;
+ }
+
+ .image2 p {
+text-align: center;
+margin-bottom: 5rem;
+ }
 
 .content2 {
   padding: 1px;
