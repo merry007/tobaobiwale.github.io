@@ -82,6 +82,7 @@ main {
         font-size: 1.5rem;
     }
 
+    
     /*JSON SECTION */
 
     .cards {
@@ -152,4 +153,72 @@ main {
     float: left;
     margin: 5px;
   }
+
+  /* Soda Spring Page */
+.map {
+    float: left;
+  }
+  
+  .right {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  .right img {
+    margin: 1rem;
+  }
+  .right article {
+    float: right;
+  }
+  
+  .imgcontainer {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  
+  .grid {
+    border-color: #222e50;
+    border-style: double;
+    margin: 10px;
+  }
+  
+  .image2 img {
+    float: left;
+    margin-left: 5rem;
+   }
+  
+   .image2 p {
+  text-align: center;
+  margin-bottom: 5rem;
+   }
+  
+  .content2 {
+    padding: 1px;
+    margin: auto;
+    border-style: double;
+   }
+  
+   /* Footer */
+  footer {
+    background-color: #16910bd5;
+    Color: White;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0.5rem;
+    font-size: 15px;
+    border-style: double;
+  }
+  
+  /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 }
