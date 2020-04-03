@@ -244,6 +244,7 @@ div#hero img {
    background-color: chocolate;
   }
 
+
   .contact {
   float: inline-start;
   flex-wrap: wrap;
@@ -263,23 +264,12 @@ div#hero img {
   float: left;
 }
 
-.container {
+.container1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
-.right {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 
-.right img {
-  margin: 1rem;
-}
-.right article {
-  float: right;
-}
 
 .imgcontainer {
   margin: auto;

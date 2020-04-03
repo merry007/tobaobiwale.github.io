@@ -122,10 +122,14 @@ main {
 
 /* Article Section */
 .content1 img {
-    float: left;
+    float: right;
 }
 
 /* Map and Content */
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .map {
     float: right;
     flex-wrap: wrap;
@@ -159,17 +163,16 @@ main {
     float: left;
   }
   
-  .right {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
-  
-  .right img {
-    margin: 1rem;
-  }
-  .right article {
+  .right1 img {
     float: right;
+    width: 40%;
+    margin-right: 20px ;
+    
+  }
+
+  .right1 p {
+      margin-right: 5rem;
+
   }
   
   .imgcontainer {
@@ -186,7 +189,7 @@ main {
   }
   
   .image2 img {
-    float: left;
+    float: right;
     margin-left: 5rem;
    }
   
