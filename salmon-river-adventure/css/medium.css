@@ -1,10 +1,78 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
+
+    
+    
+    
+    
+    
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    } 
-    
+    }
 
-}
+        /* Gallery */
+.grid {
+    margin: 5px;
+    
+    border: 3px solid rgb(177, 228, 231);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    display: block;
+    align-content: center;
+    
+  }
+  
+  .grid p {
+    margin: 0px;
+    padding: 0 28px 14px;
+    letter-spacing: 0.04em;
+    color: rgba(26, 26, 31, 0.836);
+    font-size: large;
+    text-align: center;
+  }
+  
+  .grid img {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: block;
+  }
+  
+  
+  h4 {
+  font-size: larger;
+  text-align: center;	
+  }
+  
+  /* Map and Content */
+.map {
+    float: left;
+    padding-right: 1px;
+    border: 3px solid rgb(177, 228, 231);
+    margin-left: 10rem;
+    
+  }
+
+  /* Footer */
+footer {
+    clear: both;
+    background-color: rgb(32, 12, 212);
+    Color: White;
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5rem;
+    font-size: 15px;
+    border-style: double;
+  }
+  
+    /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    }

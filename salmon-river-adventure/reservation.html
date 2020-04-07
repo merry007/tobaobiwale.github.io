@@ -1,23 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>
+<head>
+    <title>Salmon Homepage</title>
+    <meta charset="utf-8">
+    <meta name="description" content=" CIT 230 - Salmon River adventure Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <header>
+    <picture>
+      <img src="images/raftlogo.jpg" alt="Raft Logo">
+    </picture>
+    <section class="heading">
+      <h1> Salmon Raft Adventure </h1>
+      <div class="top"> Adventure of a kind!</div>
+    </section>
+  </header>
+  
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;Menu</button>
+    <ul class id="myNav">
+    <li><a href="index.html">Salmon Homepage</a></li>
+    <li><a href="adventure.html">Adventure</a></li>
+    <li><a href="river.html">River Guide</a></li>
+    <li><a href="reservation.html">Reservation Page</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </nav>
 
 
 
 <form method="get" action="thankyou.html"> 
     <fieldset>
-    <h3>Require Information</h3>
+    <h3>Require Booking Information</h3>
     Full Name: <br>
     <input type="text" name="Full Name" pattern="[A-Za-z -._]{3,99}" required><br>
     E-mail: <br>
@@ -26,36 +48,36 @@
     <input type="number" name="zipcode" required><br>
   </fieldset>
   <fieldset>
-    <h3>Booking Information</h3>
+    <h3>Raft Booking Information</h3>
     Raft Date: <br>
     <input type="date" name="raftdate"><br>
-    Raft Type:<br>
+    Choose your River Type:<br>
     
-    <input list="adventure" name="type">
-    <datalist id="weather">
-        <option value="Hurricane">
-        <option value="Flashflood">
-        <option value="Hail">
-        <option value="Tornado">
-        <option value="Thunderstorm">
+    <input list="adventure" name="river">
+    <datalist id="adventure">
+        <option value="Snake River">
+        <option value="Salmon River">
+        <option value="Middle Fork">
+        <option value="Lower Salmon River">
     </datalist><br>
   
-    Raft Level: <br>
+    Choose your Raft Level: <br>
     
     <div class="slidecontainer">
            
         <input type="range" min="1" max="10" value="5" class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
         <span id="ratingvalue">5</span>
     </div>
-    Raft Region: <br>
+    Choose your Raft Region: <br>
             <select name="raftregion">
         <option value="selectregion">Select Region</option>
         <option value="preston">Preston</option>
-        <option value="sodasprings">Soda Springs</option>
-        <option value="fishhaven">Fish Haven</option>
+        <option value="sodasprings">Idaho</option>
+        <option value="fishhaven">Utah</option>
     </select><br>
-    Skill level <br>
+    Tick if you need a guide <br>
     <input type="radio" name="dangerlevel" value="yes" checked><span class= "answer">Yes</span><br>
     <input type="radio" name="dangerlevel" value="no" checked><span class= "answer">No</span><br>
     <input type="radio" name="dangerlevel" value="maybe" checked><span class= "answer">Maybe</span><br>
   </fieldset>
+  <button type="submit">Submit</button> 

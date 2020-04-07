@@ -1,131 +1,131 @@
-
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
   background-color: rgb(196, 240, 216);
   margin: auto;
   text-align: center;
-  font-family:'Inconsolata', sans-serif;
-   }
+  font-family: 'Inconsolata', sans-serif;
+}
 
 header {
-	background-color: rgb(120, 235, 53);
-	padding:0;
-	display: flex;
-    align-items: center;
-	justify-content:center;
+  background-color: rgb(120, 235, 53);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header img {
-	width: 90px;
-	vertical-align: sub;
+  width: 90px;
+  vertical-align: sub;
 }
 
 .heading {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .heading h1 {
-	font-size: 1.rem;
-	margin: 0 0 0 17px;
+  font-size: 1.rem;
+  margin: 0 0 0 17px;
 }
 
 .top {
-	font-style: italic;
-	letter-spacing: 1pt;
-	color: rgb(12, 12, 12);
-	margin-left: 20px;
-	font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: rgb(12, 12, 12);
+  margin-left: 20px;
+  font-size: 1.5rem;
 }
 
 button {
-    border-radius: 4px;
-    color:red;
+  border-radius: 4px;
+  color: red;
 }
 
- /* NAVIGATION HERE */
- nav ul {
-	background-color: rgba(56, 173, 10, 0.671) ;
-	list-style-type: none;
-	padding: 0;
-	}
-   
-	 nav ul.hide {
-			  display: none;
-	 }
-	 
-	 nav li {
-		 padding: 15px ;
-	 }
-   
-	 nav li a {
-		 text-decoration: none;  
-		 color: white; 
-	   }
-   
-	 nav li:hover {
-	   background-color:black;
-	 }
-   
-	 li {
-	   border-right: 1px solid #bbb;
-	 }
-	 
-	 li:last-child {
-	   border-right: none;
-	 }
-
-
-	 /* ID selectors */
-#header, #footer
-
-{
-    padding:2em;
-    color: rgb(43, 255, 0);
-    background: white;
+/* NAVIGATION HERE */
+nav ul {
+  background-color: rgba(56, 173, 10, 0.671);
+  list-style-type: none;
+  padding: 0;
 }
- 
-    .dropbtn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      
-      .dropdown-content a {
-        color: rgba(155, 144, 144, 0.986);
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      
-      .dropdown-content a:hover {background-color: #f1f1f1}
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      
-      .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
+
+nav ul.hide {
+  display: none;
+}
+
+nav li {
+  padding: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  background-color: black;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+/* ID selectors */
+#header,
+#footer {
+  padding: 2em;
+  color: rgb(43, 255, 0);
+  background: white;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(155, 144, 144, 0.986);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 
 .topnav {
@@ -158,43 +158,43 @@ main {
 }
 
 div#hero img {
-    width: 100%;
-    margin:0;
-  }
-  
-  div#hero {
-    width:100%;
-    height:auto;
-    position: relative;
-    margin-bottom: 40px;
-  } 
-  
-  .Summary {
-    background-color: whitesmoke;
-    opacity: 0.6;
-    position: absolute;
-    padding: 2px;
-    top: 15px;
-    left: 10px;
-  }
-  
-  div#summary h3 {
-    font-size: 2em;
-    padding-bottom: 10px;
-    border-bottom: 4px solid #222e50
-  }
-  
-  div#summary p {
-    font-family: 'Lato' , sans-serif;
-    padding-bottom: 5px;
-    margin: 0;
-  }
-  
-  div#forecast {
-    display: none;
-  }
+  width: 100%;
+  margin: 0;
+}
 
- /* JSON Cards Section */
+div#hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.Summary {
+  background-color: whitesmoke;
+  opacity: 0.6;
+  position: absolute;
+  padding: 2px;
+  top: 15px;
+  left: 10px;
+}
+
+div#summary h3 {
+  font-size: 2em;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #222e50
+}
+
+div#summary p {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+div#forecast {
+  display: none;
+}
+
+/* JSON Cards Section */
 
 .cards {
   display: grid;
@@ -237,27 +237,27 @@ div#hero img {
 
 /* Map and Content */
 .map {
-   float: right;
-   flex-wrap: wrap;
-   padding: 2px;
-   margin-left: 50px;
-   background-color: chocolate;
-  }
+  float: right;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin-left: 50px;
+  background-color: chocolate;
+}
 
 
-  .contact {
+.contact {
   float: inline-start;
   flex-wrap: wrap;
   background-color: #74bd6ed5;
   padding-bottom: 45px;
-  }
+}
 
-  .contact a {
-    padding: 1px;
-    font-size: 40px;
-    margin: auto;
-    Color: rgb(209, 0, 17);
- }
+.contact a {
+  padding: 1px;
+  font-size: 40px;
+  margin: auto;
+  Color: rgb(209, 0, 17);
+}
 
 /* Soda Spring Page */
 .map {
@@ -287,20 +287,20 @@ div#hero img {
 .image2 img {
   float: left;
   margin-left: 5rem;
- }
+}
 
- .image2 p {
-text-align: center;
-margin-bottom: 5rem;
- }
+.image2 p {
+  text-align: center;
+  margin-bottom: 5rem;
+}
 
 .content2 {
   padding: 1px;
   margin: auto;
   border-style: double;
- }
+}
 
- /* Footer */
+/* Footer */
 footer {
   background-color: #16910bd5;
   Color: White;
@@ -316,10 +316,10 @@ footer {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* STORM CENTER*/
 
@@ -331,14 +331,14 @@ form {
 }
 
 fieldset {
-max-width: 500px;
-margin: 10px auto;
-background-color: rgb(171, 224, 109);
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: rgb(171, 224, 109);
 }
 
 form h3 {
   font-size: 20px;
-  font-family:'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
 }
 
 input {
@@ -353,8 +353,9 @@ input[type="radio"] {
   position: absolute;
   left: -120px;
 }
+
 span.answer {
-   position: relative;
+  position: relative;
 }
 
 .slidecontainer {
@@ -398,12 +399,12 @@ span.answer {
   padding: 10px;
 }
 
-select[name=stormregion]{
-    margin: 8px 0;
-    border-radius: 4px;
+select[name=stormregion] {
+  margin: 8px 0;
+  border-radius: 4px;
 }
 
-input[type=radio]{
+input[type=radio] {
   margin: 8px 0;
 }
 
@@ -413,16 +414,16 @@ textarea {
   width: 75%;
 }
 
-button{
+button {
   border-radius: 4px;
   background-color: rgb(64, 204, 99);
   color: white;
   padding: 10px;
 }
 
- /*Weather Photos*/
- main {
-  padding:0 .5rem;
+/*Weather Photos*/
+main {
+  padding: 0 .5rem;
   text-align: center;
   position: relative;
 }
@@ -438,9 +439,9 @@ button{
 }
 
 .weather figure figcaption {
-text-align:center;
-font-family:'Lato', sans-serif;
-font-size: 1.1rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
 }
 
 /*Fish Haven*/
@@ -455,7 +456,7 @@ font-size: 1.1rem;
 .event p {
   font-size: 20px;
 }
- 
+
 .event ul li {
   padding: 2px;
   margin: auto;
@@ -471,4 +472,3 @@ font-size: 1.1rem;
   margin: 5px;
   border: double;
 }
-
