@@ -28,15 +28,30 @@
   <nav>
     <button onclick="toggleNavMenu()">&#9776;Menu</button>
     <ul class id="myNav">
-    <li><a href="index.html">Salmon Homepage</a></li>
-    <li><a href="adventure.html">Adventure</a></li>
-    <li><a href="river.html">River Guide</a></li>
-    <li><a href="reservation.html">Reservation Page</a></li>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="adventure.html">Adventure</a>
+        <ul class="sub-menu">
+          <li><a href="salmonriver.html">River Trips</a></li>
+          <li><a href="snakeriver.html">River length</a></li>
+          <li><a href="forkriver.html">Services</a></li>
+        </ul>
+      </li>
+    <li><a href="river.html">River</a></li>
+    <li><a href="reservation.html">Reservation</a></li>
     <li><a href="contact.html">Contact</a></li>
   </nav>
+
 <main>
     <div class="homepage">
         <img src="images/heroimage.jpg" alt="Homapage">
+        <section class="Summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="currently"></span></p>
+          <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+          <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+          <P>Humidity: <span id="Humidity"></span>%</P>
+          <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+        </section>
     </div>
 
      <div class="container">

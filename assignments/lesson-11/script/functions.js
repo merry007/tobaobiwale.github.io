@@ -43,6 +43,7 @@ var windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 *
 windChill = Math.round(windChill);
 document.getElementById("windChill").innerHTML = windChill;
 
+
 // Forecast //
 let forecastRequest = new XMLHttpRequest();
 var apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b2e353ce185f86c20ab99b14bda3efa7';
