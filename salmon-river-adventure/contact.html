@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>Salmon Homepage</title>
+    <title> Contact action </title>
     <meta charset="utf-8">
     <meta name="description" content=" CIT 230 - Salmon River adventure Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,12 +28,21 @@
   <nav>
     <button onclick="toggleNavMenu()">&#9776;Menu</button>
     <ul class id="myNav">
-    <li><a href="index.html">Salmon Homepage</a></li>
-    <li><a href="adventure.html">Adventure</a></li>
-    <li><a href="river.html">River Guide</a></li>
-    <li><a href="reservation.html">Reservation Page</a></li>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="adventure.html">Adventure</a>
+        <ul class="sub-menu">
+          <li><a href="salmonriver.html">River Trips</a></li>
+          <li><a href="snakeriver.html">River length</a></li>
+          <li><a href="forkriver.html">Services</a></li>
+        </ul>
+      </li>
+    <li><a href="river.html">River</a></li>
+    <li><a href="reservation.html">Reservation</a></li>
     <li><a href="contact.html">Contact</a></li>
   </nav>
+
+
+
   <main>
   <div class="homepage">
     <img src="images/heroimage.jpg" alt="Homapage">
@@ -42,7 +51,7 @@
 <h2>Contact Form</h2>
 <p>.</p>
 
-<div class="container">
+<div class="container-1">
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
@@ -85,6 +94,7 @@
     </div>
   </form>
 </div>
+
 </main>
 
   <footer>
@@ -93,7 +103,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="script/functions.js"></script>
-        <script src="script/windchill.js"></script>
         <script src="script/currentdate.js"></script>       
 
 </body>

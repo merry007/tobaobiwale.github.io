@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title> River Trip-Homepage</title>
+    <meta charset="utf-8">
+    <meta name="description" content=" CIT 230 - Salmon River adventure Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <header>
+    <picture>
+      <img src="images/raftlogo.jpg" alt="Raft Logo">
+    </picture>
+    <section class="heading">
+      <h1> Salmon Raft Adventure </h1>
+      <div class="top"> Adventure of a kind!</div>
+    </section>
+  </header>
+  
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;Menu</button>
+    <ul class id="myNav">
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="adventure.html">Adventure</a>
+        <ul class="sub-menu">
+          <li><a href="rivertrip.html">River Trips</a></li>
+          <li><a href="riverlength.html">River length</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </li>
+    <li><a href="river.html">River</a></li>
+    <li><a href="reservation.html">Reservation</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </nav>
+
+  <main>
+
+    <div class="homepage">
+        <img src="images/triplogo.jpg" alt="Homapage">
+        <section class="Summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="currently"></span></p>
+          <p>Temperature: <span id="currentTemp"></span>&deg;F</p>
+          <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+          <P>Humidity: <span id="Humidity"></span>%</P>
+          <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+        </section>
+    </div>
+
+    <h2> River Trips section </h2>
+
+    <h2>To view <strong>River Trips</strong>, we recommend that you click
+        the link below:
+        <div class="call2action">
+            <p>To check an <strong> Adventure </strong> that suit you, click here <a href="adventure.html"><strong>Book Online Today</strong></a></p>
+            <p>For booking, comment and <strong>Reservation</strong>,click here<a href="reservation.html"><strong>Book Online Today</strong></a></p>   
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.435789447651!2d-116.33289468444444!3d45.40738687910022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c50a8b477d35%3A0x2b4f0a0937b98808!2s1500%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549%2C%20USA!5e1!3m2!1sen!2suk!4v1585744870063!5m2!1sen!2suk" width="500" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="contact">
+                  <p> Weather-Checker<br> 1500 S Main St<br>Preston, ID 83549</p>
+                  <p>tel: 999 999 9999<br>Weather-Checker@web></p>
+                  <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                  <a href="https://twitter.com" class="fa fa-twitter"></a>
+                  <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+                  <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+          </div>
+        </main>
+        
+        <footer>
+        &copy;2020 All Rights Reserved | Toba Obiwale |London - United Kingdom |<span id="currentDate"></span>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script src="script/functions.js"></script>
+                <script src="script/windchill.js"></script>
+                <script src="script/currentdate.js"></script>       
+         
+        </body> 
+        </html>

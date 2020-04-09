@@ -212,7 +212,6 @@ text-align: center;
   border: 3px solid rgb(177, 228, 231);
   margin-left: 10rem;
   
-  
 }
 
 .map p {
@@ -248,7 +247,6 @@ text-align: center;
 }
   .guide-one img {
 	float: left;
-	width: 30%;
 }
 .guide-one {
 	border: 3px solid rgb(200, 239, 241);
@@ -285,27 +283,28 @@ section.article {
  }
 
  .call2action a {
-	color: white;
 	display: block;
-	padding: 4px 2px;
+	padding: 4px 0px;
 	background-color: rgb(192, 38, 197);
-	border-radius: 10px;
+	border-radius: 15px;
 	box-shadow: 5px 5px 10px #000;
 }
 
 /* RESERVATION */
-
 form {
+	clear: both;
 	text-align: left;
 	padding: 20px;
 	max-width: 500px;
 	margin: auto;
+	border: 3px solid rgb(200, 239, 241);
+	margin-top: 20px;
   }
   
   fieldset {
 	max-width: 500px;
 	margin: 10px auto;
-	background-color: rgb(108, 157, 163);
+	background-color: rgb(216, 139, 223);
   }
   
   form h3 {
@@ -422,9 +421,10 @@ form {
 	background-color: #c31af7;
   }
   
-  .container {
+  .container-1 {
 	border-radius: 5px;
 	padding: 20px;
+	border: 3px solid rgb(200, 239, 241);
   }
   
   .col-25 {
@@ -439,36 +439,50 @@ form {
 	margin-top: 6px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
 	.col-25, .col-75, input[type=submit] {
 	  width: 100%;
 	  margin-top: 0;
 	}
-  }
 
+	/* CONTACT */
 
+	.main {
+		text-align: center;
+	}
+  
+	/* Adventure */
+    .river-container {
+		border: 3px solid rgb(200, 239, 241);
+	}
 
+	.adventure {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		float: left;
+		border: 3px solid rgb(200, 239, 241);
+	}
+
+	.adventure img {
+		margin-right:6rem;
+		display: grid;
+		grid-template-columns: 1fr;
+	
+		}
+	
 
 /* Footer */
 footer {
   clear: both;
-  background-color: rgb(195, 12, 212);
   Color: White;
   text-align: center;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin: 5rem;
-  font-size: 15px;
+  padding: 20px;
+  margin: 25rem;
+  font-size: 25px;
   border-style: double;
 }
 
@@ -478,3 +492,4 @@ footer {
     display: table;
     clear: both;
   }
+}

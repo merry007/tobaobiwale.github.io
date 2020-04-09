@@ -46,12 +46,11 @@
   }
   
   /* Map and Content */
-.map {
+  .map {
     float: left;
     padding-right: 1px;
     border: 3px solid rgb(177, 228, 231);
     margin-left: 10rem;
-    
   }
 
   /* Footer */
@@ -64,8 +63,8 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin: 5rem;
-    font-size: 15px;
+    margin: 5px;
+    font-size: 5px;
     border-style: double;
   }
   
@@ -75,4 +74,4 @@ footer {
       display: table;
       clear: both;
     }
-    }
+  }
